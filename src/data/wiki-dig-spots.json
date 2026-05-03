@@ -1,0 +1,1394 @@
+[
+  {
+    "number": 1,
+    "title": "Dig 1 - Sasquatch House",
+    "area": "Sasquatch House",
+    "description": "Sasquatch House. Near the Bear.",
+    "image": {
+      "fileName": "dig-001.png",
+      "localPath": "/wiki-images/dig-001.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/83/Dig_spot_bear.png?cb=20230531085243"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_1_-_Sasquatch_House"
+  },
+  {
+    "number": 2,
+    "title": "Dig 2 - Sasquatch House",
+    "area": "Sasquatch House",
+    "description": "Sasquatch House. To the left of the Construction Duck workshop.",
+    "image": {
+      "fileName": "dig-002.png",
+      "localPath": "/wiki-images/dig-002.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/99/Dig_spot_workshop.png?cb=20230531085348"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_2_-_Sasquatch_House"
+  },
+  {
+    "number": 3,
+    "title": "Dig 3 - Raccoon Shop",
+    "area": "Raccoon Shop",
+    "description": "Inside the Raccoon Shop. At the left wall, near a fireplace and a poster of a trashcan.",
+    "image": {
+      "fileName": "dig-003.png",
+      "localPath": "/wiki-images/dig-003.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/ef/Dig_spot_raccoon.png?cb=20230531085452"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_3_-_Raccoon_Shop"
+  },
+  {
+    "number": 4,
+    "title": "Dig 4 - Campsite A",
+    "area": "Campsite A",
+    "description": "Campground campsite A. Top right, near the trees.",
+    "image": {
+      "fileName": "dig-004.png",
+      "localPath": "/wiki-images/dig-004.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/b/b1/Dig_spot_campsite_a.png?cb=20230531095343"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_4_-_Campsite_A"
+  },
+  {
+    "number": 5,
+    "title": "Dig 5 - Campsites C/D",
+    "area": "Campsites C/D",
+    "description": "Campground campsites C/D. Near the River and opposite a picnic bench.",
+    "image": {
+      "fileName": "dig-005.png",
+      "localPath": "/wiki-images/dig-005.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/91/Dig_spot_campsite_c_d.png?cb=20230531095448"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_5_-_Campsites_C%2FD"
+  },
+  {
+    "number": 6,
+    "title": "Dig 6 - Sturgeon Lake",
+    "area": "Sturgeon Lake",
+    "description": "Sturgeon Lake, on the eastern shore.",
+    "image": {
+      "fileName": "dig-006.png",
+      "localPath": "/wiki-images/dig-006.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/da/Dig_spot_sturgeon.png?cb=20230531095555"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_6_-_Sturgeon_Lake"
+  },
+  {
+    "number": 7,
+    "title": "Dig 7 - Sturgeon Lake (underwater)",
+    "area": "Sturgeon Lake (underwater)",
+    "description": "Sturgeon Lake. Underwater.",
+    "image": {
+      "fileName": "dig-007.png",
+      "localPath": "/wiki-images/dig-007.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/1/18/Sturgeon_lake_dig_site.png?cb=20211024001031"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_7_-_Sturgeon_Lake_(underwater)"
+  },
+  {
+    "number": 8,
+    "title": "Dig 8 - Ranger Station",
+    "area": "Ranger Station",
+    "description": "Ranger Station. Just above the RV Park and Lake sign post, in the Safe zone.",
+    "image": {
+      "fileName": "dig-008.png",
+      "localPath": "/wiki-images/dig-008.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/6a/Dig_spot_ranger_forest.png?cb=20230531095943"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_8_-_Ranger_Station"
+  },
+  {
+    "number": 9,
+    "title": "Dig 9 - Ranger Station",
+    "area": "Ranger Station",
+    "description": "Ranger Station. Behind the Campground sign at the main entrance near to the Ranger Station.",
+    "image": {
+      "fileName": "dig-009.png",
+      "localPath": "/wiki-images/dig-009.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/7/77/Dig_spot_ranger_sign.png?cb=20230531100108"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_9_-_Ranger_Station"
+  },
+  {
+    "number": 10,
+    "title": "Dig 10 - RV Park",
+    "area": "RV Park",
+    "description": "RV Park sites C/D. To the top left of the blue RV.",
+    "image": {
+      "fileName": "dig-010.png",
+      "localPath": "/wiki-images/dig-010.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/0/01/Dig_spot_rv_park.png?cb=20230531114053"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_10_-_RV_Park"
+  },
+  {
+    "number": 11,
+    "title": "Dig 11 - Cave entrance",
+    "area": "Cave entrance",
+    "description": "Cave entrance. To the left of the cave opening.",
+    "image": {
+      "fileName": "dig-011.png",
+      "localPath": "/wiki-images/dig-011.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/1/11/Dig_spot_cave_entrance.png?cb=20230531114959"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_11_-_Cave_entrance"
+  },
+  {
+    "number": 12,
+    "title": "Dig 12 - Cave",
+    "area": "Cave",
+    "description": "Cave. In the end of the path going to the left from the first mine cart.",
+    "image": {
+      "fileName": "dig-012.png",
+      "localPath": "/wiki-images/dig-012.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/63/Dig_spot_cave.png?cb=20230531171227"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_12_-_Cave"
+  },
+  {
+    "number": 13,
+    "title": "Dig 13 - Lake",
+    "area": "Lake",
+    "description": "Lake. On the northern shore, in the forest clearing to the right.",
+    "image": {
+      "fileName": "dig-013.png",
+      "localPath": "/wiki-images/dig-013.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/d8/Dig_spot_lake_bear.png?cb=20230531171331"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_13_-_Lake"
+  },
+  {
+    "number": 14,
+    "title": "Dig 14 - Lake",
+    "area": "Lake",
+    "description": "Lake. In the bottom left corner of the lake, where the River flows out. Partially hidden behind the trees.",
+    "image": {
+      "fileName": "dig-014.png",
+      "localPath": "/wiki-images/dig-014.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/90/Lake_dig_spot.png?cb=20230531171437"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_14_-_Lake"
+  },
+  {
+    "number": 15,
+    "title": "Dig 15 - Lake (underwater)",
+    "area": "Lake (underwater)",
+    "description": "Lake. Underwater, near the plane wreck.",
+    "image": {
+      "fileName": "dig-015.png",
+      "localPath": "/wiki-images/dig-015.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/d2/Dig_spot_lake_plane.png?cb=20230605144751"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_15_-_Lake_(underwater)"
+  },
+  {
+    "number": 16,
+    "title": "Dig 16 - Lake (underwater)",
+    "area": "Lake (underwater)",
+    "description": "Lake. Underwater, south of the Fisher's hut.",
+    "image": {
+      "fileName": "dig-016.png",
+      "localPath": "/wiki-images/dig-016.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/7/7b/Dig_spot_lake_south.png?cb=20230605144609"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_16_-_Lake_(underwater)"
+  },
+  {
+    "number": 17,
+    "title": "Dig 17 - Lake (underwater)",
+    "area": "Lake (underwater)",
+    "description": "Lake. Underwater, upper right corner.",
+    "image": {
+      "fileName": "dig-017.png",
+      "localPath": "/wiki-images/dig-017.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/83/Dig_spot_lake_north.png?cb=20230605144651"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_17_-_Lake_(underwater)"
+  },
+  {
+    "number": 18,
+    "title": "Dig 18 - Maze",
+    "area": "Maze",
+    "description": "Maze. In the Safe zone to the right of the entrance.",
+    "image": {
+      "fileName": "dig-018.png",
+      "localPath": "/wiki-images/dig-018.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/f/fa/Dig_spot_maze_entrance.png?cb=20230605145320"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_18_-_Maze"
+  },
+  {
+    "number": 19,
+    "title": "Dig 19 - Maze",
+    "area": "Maze",
+    "description": "Maze. You can see it from the entrance of the maze. Go through the maze to reach this place (see Maze map).",
+    "image": {
+      "fileName": "dig-019.png",
+      "localPath": "/wiki-images/dig-019.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/36/Dig_spot_maze.png?cb=20230605145408"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_19_-_Maze"
+  },
+  {
+    "number": 20,
+    "title": "Dig 20 - Maze",
+    "area": "Maze",
+    "description": "Maze. At the end of the maze in the forest.",
+    "image": {
+      "fileName": "dig-020.png",
+      "localPath": "/wiki-images/dig-020.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/9a/Dig_spot_maze_end.png?cb=20230605145447"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_20_-_Maze"
+  },
+  {
+    "number": 21,
+    "title": "Dig 21 - Intersection",
+    "area": "Intersection",
+    "description": "Intersection. Next to the Race Track sign on the road heading up to the Race Track.",
+    "image": {
+      "fileName": "dig-021.png",
+      "localPath": "/wiki-images/dig-021.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/48/Dig_spot_intersection_north.png?cb=20230605150339"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_21_-_Intersection"
+  },
+  {
+    "number": 22,
+    "title": "Dig 22 - Intersection",
+    "area": "Intersection",
+    "description": "Intersection. Next to the path to Fisher's hut.",
+    "image": {
+      "fileName": "dig-022.png",
+      "localPath": "/wiki-images/dig-022.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/84/Dig_spot_intersection_south.png?cb=20230605150251"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_22_-_Intersection"
+  },
+  {
+    "number": 23,
+    "title": "Dig 23 - Golf Course entrance",
+    "area": "Golf Course entrance",
+    "description": "Golf Course entrance. In the Safe zone to the north of the entrance road.",
+    "image": {
+      "fileName": "dig-023.png",
+      "localPath": "/wiki-images/dig-023.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/65/Dig_spot_golf_forest.png?cb=20230605160704"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_23_-_Golf_Course_entrance"
+  },
+  {
+    "number": 24,
+    "title": "Dig 24 - Driving Range",
+    "area": "Driving Range",
+    "description": "Golf Course, Driving Range. Behind a tree, north of “250” sign.",
+    "image": {
+      "fileName": "dig-024.png",
+      "localPath": "/wiki-images/dig-024.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/e5/Dig_spot_driving_range_north.png?cb=20230605162335"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_24_-_Driving_Range"
+  },
+  {
+    "number": 25,
+    "title": "Dig 25 - Driving Range",
+    "area": "Driving Range",
+    "description": "Golf Course, Driving Range. In a small forest clearing, south of the pond in the end of the range.",
+    "image": {
+      "fileName": "dig-025.png",
+      "localPath": "/wiki-images/dig-025.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/66/Dig_spot_driving_range_south.png?cb=20230605162021"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_25_-_Driving_Range"
+  },
+  {
+    "number": 26,
+    "title": "Dig 26 - Driving Range lake (underwater)",
+    "area": "Driving Range lake (underwater)",
+    "description": "Golf Course, Driving Range. Underwater, in the lake.",
+    "image": {
+      "fileName": "dig-026.png",
+      "localPath": "/wiki-images/dig-026.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/e9/Dig_spot_underwater_golf.png?cb=20230606054826"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_26_-_Driving_Range_lake_(underwater)"
+  },
+  {
+    "number": 27,
+    "title": "Dig 27 - Golf Course",
+    "area": "Golf Course",
+    "description": "Golf Course. East of hole 7 putting green, behind a group of trees.",
+    "image": {
+      "fileName": "dig-027.png",
+      "localPath": "/wiki-images/dig-027.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/42/Dig_spot_golf_course.png?cb=20230606055247"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_27_-_Golf_Course"
+  },
+  {
+    "number": 28,
+    "title": "Dig 28 - Golf Course eastern lake",
+    "area": "Golf Course eastern lake",
+    "description": "Golf Course eastern lake. Across a wide lake where you must hit a golf ball to unlock a secret cache. You will need to scuba dive or use a boat.",
+    "image": {
+      "fileName": "dig-028.png",
+      "localPath": "/wiki-images/dig-028.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/5/5c/Golf_lake_dig_spot.png?cb=20210927234743"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_28_-_Golf_Course_eastern_lake"
+  },
+  {
+    "number": 29,
+    "title": "Dig 29 - Golf Course eastern lake (underwater)",
+    "area": "Golf Course eastern lake (underwater)",
+    "description": "Golf Course eastern lake. Underwater.",
+    "image": {
+      "fileName": "dig-029.png",
+      "localPath": "/wiki-images/dig-029.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/65/Dig_spot_golf_lake.png?cb=20230606061434"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_29_-_Golf_Course_eastern_lake_(underwater)"
+  },
+  {
+    "number": 30,
+    "title": "Dig 30 - Golf Course Cave",
+    "area": "Golf Course Cave",
+    "description": "Golf Course Cave. Reachable by a fast boat up the river.",
+    "image": {
+      "fileName": "dig-030.png",
+      "localPath": "/wiki-images/dig-030.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/a/a9/Golf_cave_dig_spot.png?cb=20210927234836"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_30_-_Golf_Course_Cave"
+  },
+  {
+    "number": 31,
+    "title": "Dig 31 - Race Track entrance",
+    "area": "Race Track entrance",
+    "description": "Race Track entrance. In the Safe zone to the right of the entrance road.",
+    "image": {
+      "fileName": "dig-031.png",
+      "localPath": "/wiki-images/dig-031.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/7/7c/Race_track_entry_dig.png?cb=20230606061919"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_31_-_Race_Track_entrance"
+  },
+  {
+    "number": 32,
+    "title": "Dig 32 - Race Track entrance",
+    "area": "Race Track entrance",
+    "description": "Race Track entrance. In the bottom right corner of the parking.",
+    "image": {
+      "fileName": "dig-032.png",
+      "localPath": "/wiki-images/dig-032.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/5/50/Dig_spot_race_track_parking_south.png?cb=20230606062101"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_32_-_Race_Track_entrance"
+  },
+  {
+    "number": 33,
+    "title": "Dig 33 - Race Track entrance",
+    "area": "Race Track entrance",
+    "description": "Race Track entrance. In the top left corner of the parking, behind a fence.",
+    "image": {
+      "fileName": "dig-033.png",
+      "localPath": "/wiki-images/dig-033.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/85/Dig_spot_race_track_parking_north.png?cb=20230606062150"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_33_-_Race_Track_entrance"
+  },
+  {
+    "number": 34,
+    "title": "Dig 34 - Race Track",
+    "area": "Race Track",
+    "description": "Race Track main area. Top left corner of the track, near the forest edge.",
+    "image": {
+      "fileName": "dig-034.png",
+      "localPath": "/wiki-images/dig-034.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/32/Dig_spot_race_track_top.png?cb=20230606080257"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_34_-_Race_Track"
+  },
+  {
+    "number": 35,
+    "title": "Dig 35 - Race Track",
+    "area": "Race Track",
+    "description": "Race Track main area. East of the pond on the track, behind a tree.",
+    "image": {
+      "fileName": "dig-035.png",
+      "localPath": "/wiki-images/dig-035.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/3f/Dig_spot_race_track_pond.png?cb=20230606080216"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_35_-_Race_Track"
+  },
+  {
+    "number": 36,
+    "title": "Dig 36 - Race Track",
+    "area": "Race Track",
+    "description": "Race Track main area. From the entrance road, run east along the spectators bleachers. The dig spot is in the end, near the rockface.",
+    "image": {
+      "fileName": "dig-036.png",
+      "localPath": "/wiki-images/dig-036.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/2/2d/Dig_spot_race_track_bleachers.png?cb=20230606080128"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_36_-_Race_Track"
+  },
+  {
+    "number": 37,
+    "title": "Dig 37 - Race Track podium lake (underwater)",
+    "area": "Race Track podium lake (underwater)",
+    "description": "Race Track podium. Underwater, the northern side of the lake.",
+    "image": {
+      "fileName": "dig-037.png",
+      "localPath": "/wiki-images/dig-037.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/34/Dig_spot_podium_north.png?cb=20230606153838"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_37_-_Race_Track_podium_lake_(underwater)"
+  },
+  {
+    "number": 38,
+    "title": "Dig 38 - Race Track podium lake (underwater)",
+    "area": "Race Track podium lake (underwater)",
+    "description": "Race Track podium. Underwater, the western side of the lake.",
+    "image": {
+      "fileName": "dig-038.png",
+      "localPath": "/wiki-images/dig-038.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/c/c8/Dig_spot_podium_south.png?cb=20230606153936"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_38_-_Race_Track_podium_lake_(underwater)"
+  },
+  {
+    "number": 39,
+    "title": "Dig 39 - East Highway",
+    "area": "East Highway",
+    "description": "East Highway. Across from the turn to the Sawmill.",
+    "image": {
+      "fileName": "dig-039.png",
+      "localPath": "/wiki-images/dig-039.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/5/54/Dig_spot_east_highway_sawmill.png?cb=20230607060344"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_39_-_East_Highway"
+  },
+  {
+    "number": 40,
+    "title": "Dig 40 - East Highway",
+    "area": "East Highway",
+    "description": "East Highway. In the last bend before the snow line.",
+    "image": {
+      "fileName": "dig-040.png",
+      "localPath": "/wiki-images/dig-040.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/8f/Dig_spot_east_highway_bend.png?cb=20230607060429"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_40_-_East_Highway"
+  },
+  {
+    "number": 41,
+    "title": "Dig 41 - Sawmill",
+    "area": "Sawmill",
+    "description": "Sawmill. Behind a tree to the right of the Trash Bear.",
+    "image": {
+      "fileName": "dig-041.png",
+      "localPath": "/wiki-images/dig-041.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/e1/Dig_spot_sawmill_bear.png?cb=20230607062405"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_41_-_Sawmill"
+  },
+  {
+    "number": 42,
+    "title": "Dig 42 - Sawmill",
+    "area": "Sawmill",
+    "description": "Sawmill. You will need the Worker Disguise. Crawl under the conveyor belt and go through the door. The dig spot is hidden behind the roof to the right.",
+    "image": {
+      "fileName": "dig-042.png",
+      "localPath": "/wiki-images/dig-042.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/40/Dig_spot_sawmill_machine.png?cb=20230607062505"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_42_-_Sawmill"
+  },
+  {
+    "number": 43,
+    "title": "Dig 43 - Ski Mountain lower level",
+    "area": "Ski Mountain lower level",
+    "description": "Ski Mountain lower level. In the Safe zone southwest of the parking near the Lodge, behind a tree.",
+    "image": {
+      "fileName": "dig-043.png",
+      "localPath": "/wiki-images/dig-043.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/9c/Dig_spot_ski_mountain_safe_zone.png?cb=20230607102933"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_43_-_Ski_Mountain_lower_level"
+  },
+  {
+    "number": 44,
+    "title": "Dig 44 - Ski Mountain lower level",
+    "area": "Ski Mountain lower level",
+    "description": "Ski Mountain lower level. Behind the Lodge, in the left side.",
+    "image": {
+      "fileName": "dig-044.png",
+      "localPath": "/wiki-images/dig-044.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/3f/Dig_spot_ski_mountain_lodge.png?cb=20230607103033"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_44_-_Ski_Mountain_lower_level"
+  },
+  {
+    "number": 45,
+    "title": "Dig 45 - Ski Mountain lower level",
+    "area": "Ski Mountain lower level",
+    "description": "Ski Mountain lower level. To the right of the lake, behind a tree.",
+    "image": {
+      "fileName": "dig-045.png",
+      "localPath": "/wiki-images/dig-045.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/1/18/Dig_spot_ski_mountain_lake_shore.png?cb=20230607103212"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_45_-_Ski_Mountain_lower_level"
+  },
+  {
+    "number": 46,
+    "title": "Dig 46 - Ski Mountain lower level",
+    "area": "Ski Mountain lower level",
+    "description": "Ski Mountain lower level. Below the chairlift, behind a tree.",
+    "image": {
+      "fileName": "dig-046.png",
+      "localPath": "/wiki-images/dig-046.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/b/bc/Dig_spot_ski_mountain_lift.png?cb=20230607103304"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_46_-_Ski_Mountain_lower_level"
+  },
+  {
+    "number": 47,
+    "title": "Dig 47 - Ski Mountain lake (underwater)",
+    "area": "Ski Mountain lake (underwater)",
+    "description": "Ski Mountain lower level. Underwater, in the lake.",
+    "image": {
+      "fileName": "dig-047.png",
+      "localPath": "/wiki-images/dig-047.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/1/1d/Ski_mountain_lake_dig_spot.png?cb=20211023193822"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_47_-_Ski_Mountain_lake_(underwater)"
+  },
+  {
+    "number": 48,
+    "title": "Dig 48 - Snowball Fights Arena",
+    "area": "Snowball Fights Arena",
+    "description": "Snowball Fights Arena. Upper left corner, behind a wall.",
+    "image": {
+      "fileName": "dig-048.png",
+      "localPath": "/wiki-images/dig-048.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/6c/Snowball_fights_wall_dig_spot.png?cb=20230607130748"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_48_-_Snowball_Fights_Arena"
+  },
+  {
+    "number": 49,
+    "title": "Dig 49 - Snowball Fights Arena",
+    "area": "Snowball Fights Arena",
+    "description": "Snowball Fights Arena. Right side.",
+    "image": {
+      "fileName": "dig-049.png",
+      "localPath": "/wiki-images/dig-049.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/61/Dig_spot_snowball_east.png?cb=20230607130848"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_49_-_Snowball_Fights_Arena"
+  },
+  {
+    "number": 50,
+    "title": "Dig 50 - Ski Mountain podium",
+    "area": "Ski Mountain podium",
+    "description": "Ski Mountain podium. In the top right corner, behind a tree.",
+    "image": {
+      "fileName": "dig-050.png",
+      "localPath": "/wiki-images/dig-050.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/0/0c/Dig_spot_ski_mountain_podium.png?cb=20230607151021"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_50_-_Ski_Mountain_podium"
+  },
+  {
+    "number": 51,
+    "title": "Dig 51 - Snow Rally track",
+    "area": "Snow Rally track",
+    "description": "Ski Mountain lower level, Snow Rally track. Bottom left corner, partially hidden behind the trees.",
+    "image": {
+      "fileName": "dig-051.png",
+      "localPath": "/wiki-images/dig-051.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/3f/Snow_rally_dig_spot.png?cb=20230608071153"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_51_-_Snow_Rally_track"
+  },
+  {
+    "number": 52,
+    "title": "Dig 52 - Snow Rally track",
+    "area": "Snow Rally track",
+    "description": "Ski Mountain lower level, Snow Rally track. On the track, behind a tree.",
+    "image": {
+      "fileName": "dig-052.png",
+      "localPath": "/wiki-images/dig-052.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/38/Snow_biking_track_dig_site.png?cb=20230608071218"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_52_-_Snow_Rally_track"
+  },
+  {
+    "number": 53,
+    "title": "Dig 53 - Hot Springs",
+    "area": "Hot Springs",
+    "description": "Hot Springs. Top left corner, behind the trees.",
+    "image": {
+      "fileName": "dig-053.png",
+      "localPath": "/wiki-images/dig-053.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/f/fe/Dig_spot_hot_springs_west.png?cb=20230608072802"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_53_-_Hot_Springs"
+  },
+  {
+    "number": 54,
+    "title": "Dig 54 - Hot Springs",
+    "area": "Hot Springs",
+    "description": "Hot Springs. Left of the house, behind a single tree surrounded by rocks.",
+    "image": {
+      "fileName": "dig-054.png",
+      "localPath": "/wiki-images/dig-054.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/2/2b/Dig_spot_springs_tree.png?cb=20230608072710"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_54_-_Hot_Springs"
+  },
+  {
+    "number": 55,
+    "title": "Dig 55 - Ski Mountain Cave",
+    "area": "Ski Mountain Cave",
+    "description": "Ski Mountain Cave. In the top left corner.",
+    "image": {
+      "fileName": "dig-055.png",
+      "localPath": "/wiki-images/dig-055.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/89/Dig_spot_ski_mountain_cave.png?cb=20230608073628"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_55_-_Ski_Mountain_Cave"
+  },
+  {
+    "number": 56,
+    "title": "Dig 56 - Ski Mountain Cave lake (underwater)",
+    "area": "Ski Mountain Cave lake (underwater)",
+    "description": "The dig spot and a gold bar Ski Mountain Cave. Underwater in the lake. Two Gold Bars worth 1000 each lie nearby.",
+    "image": {
+      "fileName": "dig-056.png",
+      "localPath": "/wiki-images/dig-056.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/45/Summit_cave_like_dig_spot_and_gold_bar.png?cb=20211023190635"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_56_-_Ski_Mountain_Cave_lake_(underwater)"
+  },
+  {
+    "number": 57,
+    "title": "Dig 57 - West Highway",
+    "area": "West Highway",
+    "description": "West Highway. North side, near the turn to the Dirt Racetrack.",
+    "image": {
+      "fileName": "dig-057.png",
+      "localPath": "/wiki-images/dig-057.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/a/a9/Dig_spot_west_highway_top.png?cb=20230608074639"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_57_-_West_Highway"
+  },
+  {
+    "number": 58,
+    "title": "Dig 58 - West Highway",
+    "area": "West Highway",
+    "description": "West Highway. Bottom left, slightly hidden behind the trees.",
+    "image": {
+      "fileName": "dig-058.png",
+      "localPath": "/wiki-images/dig-058.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/84/Dig_spot_west_highway_bottom.png?cb=20230608074723"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_58_-_West_Highway"
+  },
+  {
+    "number": 59,
+    "title": "Dig 59 - West Highway lake (underwater)",
+    "area": "West Highway lake (underwater)",
+    "description": "West Highway. Underwater in the lake south of the highway.",
+    "image": {
+      "fileName": "dig-059.png",
+      "localPath": "/wiki-images/dig-059.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/40/Highway_lake_dig_site.png?cb=20230608075555"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_59_-_West_Highway_lake_(underwater)"
+  },
+  {
+    "number": 60,
+    "title": "Dig 60 - Road to Dirt Racetrack",
+    "area": "Road to Dirt Racetrack",
+    "description": "Road to Dirt Racetrack. In the turn, partially hidden behind the trees.",
+    "image": {
+      "fileName": "dig-060.png",
+      "localPath": "/wiki-images/dig-060.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/a/a5/Dirt_bike_road_dig_spot_south.png?cb=20210921120009"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_60_-_Road_to_Dirt_Racetrack"
+  },
+  {
+    "number": 61,
+    "title": "Dig 61 - Road to Dirt Racetrack",
+    "area": "Road to Dirt Racetrack",
+    "description": "Road to Dirt Racetrack. In the turn, partially hidden behind the trees.",
+    "image": {
+      "fileName": "dig-061.png",
+      "localPath": "/wiki-images/dig-061.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/1/13/Dirt_bike_road_dig_spot.png?cb=20210921114838"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_61_-_Road_to_Dirt_Racetrack"
+  },
+  {
+    "number": 62,
+    "title": "Dig 62 - Dirt Racetrack",
+    "area": "Dirt Racetrack",
+    "description": "Dirt Racetrack. Above the ‘Big Rig’ monster truck, behind a tree.",
+    "image": {
+      "fileName": "dig-062.png",
+      "localPath": "/wiki-images/dig-062.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/7/73/Dirt_bike_dig_spot.png?cb=20210921140753"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_62_-_Dirt_Racetrack"
+  },
+  {
+    "number": 63,
+    "title": "Dig 63 - Museum",
+    "area": "Museum",
+    "description": "Museum. Behind a rock next to the excavation site.",
+    "image": {
+      "fileName": "dig-063.png",
+      "localPath": "/wiki-images/dig-063.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/84/Dig_spot_museum_rock.png?cb=20230608090159"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_63_-_Museum"
+  },
+  {
+    "number": 64,
+    "title": "Dig 64 - Museum",
+    "area": "Museum",
+    "description": "Museum. Upper left corner, behind the museum.",
+    "image": {
+      "fileName": "dig-064.png",
+      "localPath": "/wiki-images/dig-064.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/e6/Dig_spot_museum_north.png?cb=20230608090239"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_64_-_Museum"
+  },
+  {
+    "number": 65,
+    "title": "Dig 65 - Strip Mall",
+    "area": "Strip Mall",
+    "description": "Strip Mall area, behind the Hospital.",
+    "image": {
+      "fileName": "dig-065.png",
+      "localPath": "/wiki-images/dig-065.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/32/Hospital_dig_spot.png?cb=20231222095621"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_65_-_Strip_Mall"
+  },
+  {
+    "number": 66,
+    "title": "Dig 66 - Strip Mall",
+    "area": "Strip Mall",
+    "description": "The beginning of the pathThe dig spot Strip Mall area, left of the Fire Station. Find a narrow hidden path into the forest leading to a small clearing. The spot is in the southern end of the clearing, hidden behind trees.",
+    "image": {
+      "fileName": "dig-066.png",
+      "localPath": "/wiki-images/dig-066.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/2/25/Fire_station_dig_spot_entrance.png?cb=20231222095730"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_66_-_Strip_Mall"
+  },
+  {
+    "number": 67,
+    "title": "Dig 67 - Town",
+    "area": "Town",
+    "description": "Town. Near the road going south, next to the signs pointing to Marina and Island.",
+    "image": {
+      "fileName": "dig-067.png",
+      "localPath": "/wiki-images/dig-067.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/33/Dig_spot_town_marina_road.png?cb=20230613083836"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_67_-_Town"
+  },
+  {
+    "number": 68,
+    "title": "Dig 68 - Town",
+    "area": "Town",
+    "description": "Town. In the fenced area next to the Police Station, behind a tree. Crawl through the hole in the fence to enter this area.",
+    "image": {
+      "fileName": "dig-068.png",
+      "localPath": "/wiki-images/dig-068.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/4b/Dig_spot_town_police_yard.png?cb=20230613084153"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_68_-_Town"
+  },
+  {
+    "number": 69,
+    "title": "Dig 69 - Town",
+    "area": "Town",
+    "description": "Town. In the southwestern corner of the town, behind buildings, and south of a fence. Enter the forest across the road from the Newspaper building, and run along the southern side of the fence till the end.",
+    "image": {
+      "fileName": "dig-069.png",
+      "localPath": "/wiki-images/dig-069.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/37/Dig_spot_town_southwest.png?cb=20230613084244"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_69_-_Town"
+  },
+  {
+    "number": 70,
+    "title": "Dig 70 - Town",
+    "area": "Town",
+    "description": "Town. In the northwestern corner of the town, north of the Town Hall.",
+    "image": {
+      "fileName": "dig-070.png",
+      "localPath": "/wiki-images/dig-070.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/8a/Dig_spot_town_northwest.png?cb=20230613084337"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_70_-_Town"
+  },
+  {
+    "number": 71,
+    "title": "Dig 71 - Town",
+    "area": "Town",
+    "description": "Town. North of the Supermarket, and behind a fence. The area behind the fence can be entered from the western side.",
+    "image": {
+      "fileName": "dig-071.png",
+      "localPath": "/wiki-images/dig-071.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/9e/Dig_spot_town_supermarket.png?cb=20230613084430"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_71_-_Town"
+  },
+  {
+    "number": 72,
+    "title": "Dig 72 - Town",
+    "area": "Town",
+    "description": "Town. On the strip of dirt between the Stop and Snack and the Supermarket parking.",
+    "image": {
+      "fileName": "dig-072.png",
+      "localPath": "/wiki-images/dig-072.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/46/Dig_spot_town_supermarket_parking.png?cb=20230613084526"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_72_-_Town"
+  },
+  {
+    "number": 73,
+    "title": "Dig 73 - Town",
+    "area": "Town",
+    "description": "Town. In the forest northeast of the Stop and Snack. Go along the eastern wall of the Stop and Snack building to reach it.",
+    "image": {
+      "fileName": "dig-073.png",
+      "localPath": "/wiki-images/dig-073.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/34/Dig_spot_town_gas_station.png?cb=20230613084648"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_73_-_Town"
+  },
+  {
+    "number": 74,
+    "title": "Dig 74 - Town Sewers",
+    "area": "Town Sewers",
+    "description": "Town Sewers. Near the entrance to storage room.",
+    "image": {
+      "fileName": "dig-074.png",
+      "localPath": "/wiki-images/dig-074.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/f/f4/Sewers_storage_dig_spot.png?cb=20211025155847"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_74_-_Town_Sewers"
+  },
+  {
+    "number": 75,
+    "title": "Dig 75 - Town Sewers",
+    "area": "Town Sewers",
+    "description": "Town Sewers. End of a corridor in top left corner.",
+    "image": {
+      "fileName": "dig-075.png",
+      "localPath": "/wiki-images/dig-075.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/6/67/Sewers_dig_spot_northwest.png?cb=20211025155951"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_75_-_Town_Sewers"
+  },
+  {
+    "number": 76,
+    "title": "Dig 76 - Town Sewers",
+    "area": "Town Sewers",
+    "description": "Town Sewers. Southeast of the waterfall.",
+    "image": {
+      "fileName": "dig-076.png",
+      "localPath": "/wiki-images/dig-076.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/5/5b/Sewers_waterfall_dig_spot.png?cb=20211025160100"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_76_-_Town_Sewers"
+  },
+  {
+    "number": 77,
+    "title": "Dig 77 - Port",
+    "area": "Port",
+    "description": "Port, behind the fence on the eastern side. Enter Secure warehouse 1 area through the sewers, open the gate and bring a Forklift. If you haven't move the security camera, drive behind the warehouse building to avoid detection. There's a stack of bricks to the left of the warehouse building. Use the Forklift to move it away and reveal the hole in the fence. Crawl through it, go right and then down along the fence, and you will reach the dig spot. While you can reach the spot area while working in secure cargo loading/unloading task, you cannot dig it up while working.",
+    "image": {
+      "fileName": "dig-077.png",
+      "localPath": "/wiki-images/dig-077.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/3/32/Port_fence_dig_spot.png?cb=20230613091134"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_77_-_Port"
+  },
+  {
+    "number": 78,
+    "title": "Dig 78 - Port",
+    "area": "Port",
+    "description": "Port, in the forest behind the Fox Shop. Go north from the shop entrance, then follow a path through the forest east and south. There may be a minor glitch that digging this spot teleports you through the forest to the road.",
+    "image": {
+      "fileName": "dig-078.png",
+      "localPath": "/wiki-images/dig-078.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/8a/Fox_shop_dig_spot.png?cb=20230613090420"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_78_-_Port"
+  },
+  {
+    "number": 79,
+    "title": "Dig 79 - Port sewers",
+    "area": "Port sewers",
+    "description": "Port Sewers, in a walled area in the northwest. This place can be reached from Secure Warehouse 3 underground, only reachable in and after Storyline chapter 4. The lockers here contain a key to the door, so you can use this place as a shortcut.",
+    "image": {
+      "fileName": "dig-079.jpg",
+      "localPath": "/wiki-images/dig-079.jpg",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/c/cc/Dig_spot_port_sewers.jpg?cb=20221217151848"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_79_-_Port_sewers"
+  },
+  {
+    "number": 80,
+    "title": "Dig 80 - Pemberton Hideout",
+    "area": "Pemberton Hideout",
+    "description": "Pemberton Hideout, behind Pancake Mix crates. Reach the Forklift and use it to remove the crates blocking the way to the corridor. Quickly drive east: the camera will trigger Ranger Danger, but entering another area removes it. Drive back into the corridor to the south and use the forklift to move away the crates blocking access to the dig spot. This spot contains a Gold Bar.",
+    "image": {
+      "fileName": "dig-080.jpg",
+      "localPath": "/wiki-images/dig-080.jpg",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/87/Dig_spot_pemberton_lair.jpg?cb=20221217151927"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_80_-_Pemberton_Hideout"
+  },
+  {
+    "number": 81,
+    "title": "Dig 81 - Marina",
+    "area": "Marina",
+    "description": "Marina. Behind a tree near the road and the picnic table.",
+    "image": {
+      "fileName": "dig-081.png",
+      "localPath": "/wiki-images/dig-081.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/dc/Dig_spot_marina_road.png?cb=20230613143311"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_81_-_Marina"
+  },
+  {
+    "number": 82,
+    "title": "Dig 82 - Marina",
+    "area": "Marina",
+    "description": "Marina. In the forest to the east, near the “beach ball” secret cache.",
+    "image": {
+      "fileName": "dig-082.png",
+      "localPath": "/wiki-images/dig-082.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/7/77/Beach_ball_cache_dig_spot.png?cb=20230613143106"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_82_-_Marina"
+  },
+  {
+    "number": 83,
+    "title": "Dig 83 - Marina",
+    "area": "Marina",
+    "description": "Marina. Eastern side of the pebble beach.",
+    "image": {
+      "fileName": "dig-083.png",
+      "localPath": "/wiki-images/dig-083.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/d8/Dig_spot_marina_beach_east.png?cb=20230613143338"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_83_-_Marina"
+  },
+  {
+    "number": 84,
+    "title": "Dig 84 - Marina",
+    "area": "Marina",
+    "description": "Marina. On the beach to the left of the ferry dock. A boat or the Scuba Diving Gear is required to get there.",
+    "image": {
+      "fileName": "dig-084.png",
+      "localPath": "/wiki-images/dig-084.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/1/18/Marina_ferry_dig.png?cb=20230613143136"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_84_-_Marina"
+  },
+  {
+    "number": 85,
+    "title": "Dig 85 - Marina (underwater)",
+    "area": "Marina (underwater)",
+    "description": "Marina. Underwater. Dive from the middle of the beach east of the piers, and swim south. The dig spot is in a recess in the rock wall.",
+    "image": {
+      "fileName": "dig-085.png",
+      "localPath": "/wiki-images/dig-085.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/f/f0/Marina_scuba_dig_east.png?cb=20230614133048"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_85_-_Marina_(underwater)"
+  },
+  {
+    "number": 86,
+    "title": "Dig 86 - Marina (underwater)",
+    "area": "Marina (underwater)",
+    "description": "Marina. Underwater. Dive just west of the piers, and swim south. The dig spot is in a large open area southeast of the sunk ship.",
+    "image": {
+      "fileName": "dig-086.png",
+      "localPath": "/wiki-images/dig-086.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/9e/Marina_scuba_dig_middle.png?cb=20230614140533"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_86_-_Marina_(underwater)"
+  },
+  {
+    "number": 87,
+    "title": "Dig 87 - Marina (underwater)",
+    "area": "Marina (underwater)",
+    "description": "Marina. Underwater. Dive from the western end of the beach west of the Ferry dock, and swim south. The dig spot is near the western rock wall, and northwest of the sunk ship.",
+    "image": {
+      "fileName": "dig-087.png",
+      "localPath": "/wiki-images/dig-087.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/0/00/Marina_scuba_dig_west.png?cb=20230614140907"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_87_-_Marina_(underwater)"
+  },
+  {
+    "number": 88,
+    "title": "Dig 88 - River Mouth",
+    "area": "River Mouth",
+    "description": "River Mouth. On the western bank of the river, in a small clearing in the forest.",
+    "image": {
+      "fileName": "dig-088.png",
+      "localPath": "/wiki-images/dig-088.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/1/19/Fast_river_dig_site_left.png?cb=20230614143246"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_88_-_River_Mouth"
+  },
+  {
+    "number": 89,
+    "title": "Dig 89 - River Mouth",
+    "area": "River Mouth",
+    "description": "River Mouth. On a rocky beach on the eastern bank of the river.",
+    "image": {
+      "fileName": "dig-089.png",
+      "localPath": "/wiki-images/dig-089.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/b/b7/River_mouth_east_dig_site.png?cb=20230614143310"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_89_-_River_Mouth"
+  },
+  {
+    "number": 90,
+    "title": "Dig 90 - River Mouth (underwater)",
+    "area": "River Mouth (underwater)",
+    "description": "River Mouth. Underwater. Dive from the eastern bank of the river and swim south. The dig spot is in the southeastern corner of the area, near the rock wall.",
+    "image": {
+      "fileName": "dig-090.png",
+      "localPath": "/wiki-images/dig-090.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/eb/River_mouth_underwater_dig_spot.png?cb=20230614143334"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_90_-_River_Mouth_(underwater)"
+  },
+  {
+    "number": 91,
+    "title": "Dig 91 - River",
+    "area": "River",
+    "description": "River. First go to the River Mouth, to the eastern bank of the river. Run north along the river, following the bends, until you reach the boulder blocking the way. The dig spot is right before it.",
+    "image": {
+      "fileName": "dig-091.png",
+      "localPath": "/wiki-images/dig-091.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/d6/Dig_spot_river_boulder.png?cb=20230614143556"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_91_-_River"
+  },
+  {
+    "number": 92,
+    "title": "Dig 92 - River",
+    "area": "River",
+    "description": "River. Along the winding trail to the Mushroom Hunter's cabin, find a gap in the trees going east.",
+    "image": {
+      "fileName": "dig-092.png",
+      "localPath": "/wiki-images/dig-092.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/e9/Mushroom_hunter_road_dig_spot.png?cb=20230614150847"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_92_-_River"
+  },
+  {
+    "number": 93,
+    "title": "Dig 93 - River",
+    "area": "River",
+    "description": "River. Go west into the forest from the “Taxi passenger” secret cache.",
+    "image": {
+      "fileName": "dig-093.png",
+      "localPath": "/wiki-images/dig-093.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/c/c7/Passenger_cache_dig_spot.png?cb=20230614150915"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_93_-_River"
+  },
+  {
+    "number": 94,
+    "title": "Dig 94 - Island",
+    "area": "Island",
+    "description": "Island. At the southeastern corner of the Rich Uncle Duck's island. You can wade to this island across a shallow strait in the southeastern corner of the main island.",
+    "image": {
+      "fileName": "dig-094.png",
+      "localPath": "/wiki-images/dig-094.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/e6/Dig_spot_island_rich.png?cb=20230614110419"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_94_-_Island"
+  },
+  {
+    "number": 95,
+    "title": "Dig 95 - Island",
+    "area": "Island",
+    "description": "Island. To the east of the Ferry dock. You can wade to this area around the northeastern corner of the island.",
+    "image": {
+      "fileName": "dig-095.png",
+      "localPath": "/wiki-images/dig-095.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/e5/Dig_spot_island_ferry.png?cb=20230614111226"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_95_-_Island"
+  },
+  {
+    "number": 96,
+    "title": "Dig 96 - Island",
+    "area": "Island",
+    "description": "Island. On the northern beach, behind the blue 'Next Ferry' sign.",
+    "image": {
+      "fileName": "dig-096.png",
+      "localPath": "/wiki-images/dig-096.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/4c/Dig_spot_island_ferry_sign.png?cb=20230614111505"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_96_-_Island"
+  },
+  {
+    "number": 97,
+    "title": "Dig 97 - Island",
+    "area": "Island",
+    "description": "Island. On the northern beach, behind the Taco Truck.",
+    "image": {
+      "fileName": "dig-097.png",
+      "localPath": "/wiki-images/dig-097.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/5/5c/Dig_spot_island_beach.png?cb=20230614111628"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_97_-_Island"
+  },
+  {
+    "number": 98,
+    "title": "Dig 98 - Island",
+    "area": "Island",
+    "description": "Island. On the forest trail connecting the northern beach and the RV Dude's place.",
+    "image": {
+      "fileName": "dig-098.png",
+      "localPath": "/wiki-images/dig-098.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/2/21/Dig_spot_island_forest.png?cb=20230614111734"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_98_-_Island"
+  },
+  {
+    "number": 99,
+    "title": "Dig 99 - Island",
+    "area": "Island",
+    "description": "Island. Across the road from the Taco Truck.",
+    "image": {
+      "fileName": "dig-099.png",
+      "localPath": "/wiki-images/dig-099.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/a/a2/Dig_spot_island_road.png?cb=20230614112103"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_99_-_Island"
+  },
+  {
+    "number": 100,
+    "title": "Dig 100 - Island",
+    "area": "Island",
+    "description": "Island. Near a small pond east of the Surf Shack.",
+    "image": {
+      "fileName": "dig-100.png",
+      "localPath": "/wiki-images/dig-100.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/dd/Dig_spot_island_central_pond.png?cb=20230614112230"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_100_-_Island"
+  },
+  {
+    "number": 101,
+    "title": "Dig 101 - Island",
+    "area": "Island",
+    "description": "Island. On the beach near the RV Dude.",
+    "image": {
+      "fileName": "dig-101.png",
+      "localPath": "/wiki-images/dig-101.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/dd/Dig_spot_island_rv_dude.png?cb=20230614112340"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_101_-_Island"
+  },
+  {
+    "number": 102,
+    "title": "Dig 102 - Island",
+    "area": "Island",
+    "description": "Island. Hidden behind the Surf Shack.",
+    "image": {
+      "fileName": "dig-102.png",
+      "localPath": "/wiki-images/dig-102.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/f/f6/Dig_spot_island_shack.png?cb=20230614112432"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_102_-_Island"
+  },
+  {
+    "number": 103,
+    "title": "Dig 103 - Island (underwater)",
+    "area": "Island (underwater)",
+    "description": "Island. Underwater. Dive from the southwestern tip of the Island (west of the Surf Shack), then swim southwest. The dig spot is near a car wreck.",
+    "image": {
+      "fileName": "dig-103.png",
+      "localPath": "/wiki-images/dig-103.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/c/c1/Island_scuba_southwest_dig_site.png?cb=20230614124317"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_103_-_Island_(underwater)"
+  },
+  {
+    "number": 104,
+    "title": "Dig 104 - Island (underwater)",
+    "area": "Island (underwater)",
+    "description": "Island. Underwater. Dive from the northern tip of the narrow island with a \"magnifying glass\" secret cache (across a strait from the RV Dude's place), then swim northwest. The dig spot is in the middle of a quite large open area between several rocks.",
+    "image": {
+      "fileName": "dig-104.png",
+      "localPath": "/wiki-images/dig-104.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/c/c9/Island_scuba_northwest_dig_site.png?cb=20230614124401"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_104_-_Island_(underwater)"
+  },
+  {
+    "number": 105,
+    "title": "Dig 105 - Island (underwater)",
+    "area": "Island (underwater)",
+    "description": "Island. Underwater. Dive from the southwestern tip of the Rich Uncle Duck's island, then swim southwest. The dig spot is near the of a sunk pirate ship.",
+    "image": {
+      "fileName": "dig-105.png",
+      "localPath": "/wiki-images/dig-105.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/4a/Island_scuba_shipwreck_dig_site.png?cb=20230614124435"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_105_-_Island_(underwater)"
+  },
+  {
+    "number": 106,
+    "title": "Dig 106 - Island (underwater)",
+    "area": "Island (underwater)",
+    "description": "Island. Underwater. Dive from the southeastern tip of the Rich Uncle Duck's island, then swim east. The dig spot is in a kelp grove.",
+    "image": {
+      "fileName": "dig-106.png",
+      "localPath": "/wiki-images/dig-106.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/d2/Island_scuba_southeast_dig_site.png?cb=20230614124507"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_106_-_Island_(underwater)"
+  },
+  {
+    "number": 107,
+    "title": "Dig 107 - Island (underwater)",
+    "area": "Island (underwater)",
+    "description": "Island. Underwater. Dive from the beach east of the Ferry dock, then swim south. The dig spot is near a car wreck.",
+    "image": {
+      "fileName": "dig-107.png",
+      "localPath": "/wiki-images/dig-107.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/e/ef/Island_scuba_east_dig_site.png?cb=20230614124536"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_107_-_Island_(underwater)"
+  },
+  {
+    "number": 108,
+    "title": "Dig 108 - Island (underwater)",
+    "area": "Island (underwater)",
+    "description": "Island. Underwater. Dive from the northeastern corner of the Island, then swim northeast. The dig spot is in a narrow corridor made of rocks; the entrance to the corridor is from the northwestern side.",
+    "image": {
+      "fileName": "dig-108.png",
+      "localPath": "/wiki-images/dig-108.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/c/c7/Island_scuba_northeast_dig_site.png?cb=20230614124608"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_108_-_Island_(underwater)"
+  },
+  {
+    "number": 109,
+    "title": "Dig 109 - Island Cave",
+    "area": "Island Cave",
+    "description": "Island Cave. You need to give Dynamite (received from the Mushroom Hunter) to the Demolition Duck to enter the cave.",
+    "image": {
+      "fileName": "dig-109.png",
+      "localPath": "/wiki-images/dig-109.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/d/dc/Dynamite_cave_dig_spot.png?cb=20210927154250"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_109_-_Island_Cave"
+  },
+  {
+    "number": 110,
+    "title": "Dig 110 - Northern Ocean",
+    "area": "Northern Ocean",
+    "description": "In the Island Campground, behind a tree. You need to start building the campground to get there (at least build the Ferry Dock).",
+    "image": {
+      "fileName": "dig-110.png",
+      "localPath": "/wiki-images/dig-110.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/8/8d/Island_campground_dig_spot.png?cb=20230614220248"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_110_-_Northern_Ocean"
+  },
+  {
+    "number": 111,
+    "title": "Dig 111 - Northern Ocean (underwater)",
+    "area": "Northern Ocean (underwater)",
+    "description": "Northern Ocean, underwater. Dive from the Island Campground beach and swim south. The dig spot is near the southern edge of the illuminated area.",
+    "image": {
+      "fileName": "dig-111.png",
+      "localPath": "/wiki-images/dig-111.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/95/Island_campground_underwater_dig_site.png?cb=20230614220315"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_111_-_Northern_Ocean_(underwater)"
+  },
+  {
+    "number": 112,
+    "title": "Dig 112 - Northern Ocean (underwater)",
+    "area": "Northern Ocean (underwater)",
+    "description": "Northern Ocean, underwater. Dive from the western tip of the beach near the Pirate Cave. The dig spot is immediately south, near a rock formation.",
+    "image": {
+      "fileName": "dig-112.png",
+      "localPath": "/wiki-images/dig-112.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/b/b2/Pirate_cave_beach_dig_spot.png?cb=20230614220346"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_112_-_Northern_Ocean_(underwater)"
+  },
+  {
+    "number": 113,
+    "title": "Dig 113 - Farm",
+    "area": "Farm",
+    "description": "The dig spot behind the green house at the Farm",
+    "image": {
+      "fileName": "dig-113.png",
+      "localPath": "/wiki-images/dig-113.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/f/fc/Dig_spot_113.png?cb=20251216045555"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_113_-_Farm"
+  },
+  {
+    "number": 114,
+    "title": "Dig 114 - Manure tank",
+    "area": "Manure tank",
+    "description": "The dig spot Inside the Manure tank at the top left corner",
+    "image": {
+      "fileName": "dig-114.png",
+      "localPath": "/wiki-images/dig-114.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/9/90/Screenshot_2025-12-15_20.48.43.png?cb=20251216050226"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_114_-_Manure_tank"
+  },
+  {
+    "number": 115,
+    "title": "Dig 115 - Highway east of Farm valley",
+    "area": "Highway east of Farm valley",
+    "description": "The dig spot Behind a tree next to the cars on the highway",
+    "image": {
+      "fileName": "dig-115.png",
+      "localPath": "/wiki-images/dig-115.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/5/51/Dig_115.png?cb=20251216051327"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_115_-_Highway_east_of_Farm_valley"
+  },
+  {
+    "number": 116,
+    "title": "Dig 116 - Mushroom cave",
+    "area": "Mushroom cave",
+    "description": "In the Mushroom cave near the Highway exit. Category:Frequently Updated Articles",
+    "image": {
+      "fileName": "dig-116.png",
+      "localPath": "/wiki-images/dig-116.png",
+      "sourceUrl": "https://static.wikia.nocookie.net/sneaky-sasquatch/images/4/45/BlahfgASFASDFASFDAS.png?cb=20251217000111"
+    },
+    "sourceUrl": "https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot#Dig_116_-_Mushroom_cave"
+  }
+]

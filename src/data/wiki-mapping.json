@@ -1,0 +1,16 @@
+[
+  {
+    "mapHash": "ee650696a87ebd54ca80f39aebee7ec5",
+    "digsiteId": "M4",
+    "wikiNumber": 79,
+    "confidence": "verified-by-save-and-wiki",
+    "note": "Sewer_Seaport scene maps to the wiki's Port sewers dig spot."
+  },
+  {
+    "mapHash": "d9d3ee51fcdaacf44afe2e7803e03499",
+    "digsiteId": "M4",
+    "wikiNumber": 80,
+    "confidence": "verified-by-save-and-wiki",
+    "note": "Sewer_SecretWarehouse scene maps to the wiki's Pemberton Hideout dig spot."
+  }
+]

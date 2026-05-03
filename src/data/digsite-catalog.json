@@ -1,0 +1,1553 @@
+[
+  {
+    "confidence": "scene-only",
+    "digsiteId": "sG",
+    "levelFile": "level403",
+    "mapHash": "08d011b4c6f2a402fb64145581146c1d",
+    "objectName": "Digsite",
+    "sceneName": "Farm",
+    "scenePath": "Assets/Scenes/Farm/Farm.unity"
+  },
+  {
+    "digsiteId": "Lt",
+    "levelFile": "level231",
+    "mapHash": "0cafa5152e5c76f47adc47245cad4f74",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -589.0,
+      "y": 1549.0,
+      "z": 751.0
+    },
+    "sceneName": "Museum",
+    "scenePath": "Assets/Scenes/Museum/Museum.unity"
+  },
+  {
+    "digsiteId": "dX",
+    "levelFile": "level231",
+    "mapHash": "0cafa5152e5c76f47adc47245cad4f74",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -532.95,
+      "y": -31.876,
+      "z": 751.0
+    },
+    "sceneName": "Museum",
+    "scenePath": "Assets/Scenes/Museum/Museum.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "34e016dd69d6c6949a6204d08a24eabd",
+    "levelFile": "level4",
+    "mapHash": "0d9789d23538e06448100b44fa18af4c",
+    "objectName": "Digsite",
+    "sceneName": "Snow Main",
+    "scenePath": "Assets/Scenes/Snow/Snow Main.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "35555198a76055b438f41b81bbbfa5da",
+    "levelFile": "level4",
+    "mapHash": "0d9789d23538e06448100b44fa18af4c",
+    "objectName": "Digsite",
+    "sceneName": "Snow Main",
+    "scenePath": "Assets/Scenes/Snow/Snow Main.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "bYyg",
+    "levelFile": "level4",
+    "mapHash": "0d9789d23538e06448100b44fa18af4c",
+    "objectName": "Digsite",
+    "sceneName": "Snow Main",
+    "scenePath": "Assets/Scenes/Snow/Snow Main.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "f19f370fec0e9c54aa8efa23c61ea94c",
+    "levelFile": "level4",
+    "mapHash": "0d9789d23538e06448100b44fa18af4c",
+    "objectName": "Digsite",
+    "sceneName": "Snow Main",
+    "scenePath": "Assets/Scenes/Snow/Snow Main.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "ic",
+    "levelFile": "level4",
+    "mapHash": "0d9789d23538e06448100b44fa18af4c",
+    "objectName": "Digsite",
+    "sceneName": "Snow Main",
+    "scenePath": "Assets/Scenes/Snow/Snow Main.unity"
+  },
+  {
+    "digsiteId": "1f4885019433f1142adc7b838da93052",
+    "levelFile": "level5",
+    "mapHash": "26c7ef3776de5c5448b0cd95f8ed0c8d",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 2753.966,
+      "y": -1521.652,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack",
+    "scenePath": "Assets/Scenes/Racetrack/Racetrack.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "2S",
+    "levelFile": "level5",
+    "mapHash": "26c7ef3776de5c5448b0cd95f8ed0c8d",
+    "objectName": "Digsite",
+    "sceneName": "Racetrack",
+    "scenePath": "Assets/Scenes/Racetrack/Racetrack.unity"
+  },
+  {
+    "digsiteId": "bd4392a4e3f5e1344b090a1c4a4535fb",
+    "levelFile": "level5",
+    "mapHash": "26c7ef3776de5c5448b0cd95f8ed0c8d",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 1091.0,
+      "y": 677.0,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack",
+    "scenePath": "Assets/Scenes/Racetrack/Racetrack.unity"
+  },
+  {
+    "digsiteId": "cc717bb2e82a9224f938e2fffd04b28c",
+    "levelFile": "level5",
+    "mapHash": "26c7ef3776de5c5448b0cd95f8ed0c8d",
+    "objectName": "DirtMound (3)",
+    "position": {
+      "x": -1375.411,
+      "y": 3082.924,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack",
+    "scenePath": "Assets/Scenes/Racetrack/Racetrack.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "fZ",
+    "levelFile": "level5",
+    "mapHash": "26c7ef3776de5c5448b0cd95f8ed0c8d",
+    "objectName": "Digsite",
+    "sceneName": "Racetrack",
+    "scenePath": "Assets/Scenes/Racetrack/Racetrack.unity"
+  },
+  {
+    "digsiteId": "Io",
+    "levelFile": "level280",
+    "mapHash": "3109c5e7e67cfef4a996b11f0bdfd689",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -709.0,
+      "y": 642.0,
+      "z": 751.0
+    },
+    "sceneName": "DirtPark_Highway",
+    "scenePath": "Assets/Scenes/DirtPark/DirtPark_Highway.unity"
+  },
+  {
+    "digsiteId": "hn",
+    "levelFile": "level280",
+    "mapHash": "3109c5e7e67cfef4a996b11f0bdfd689",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -2352.1,
+      "y": -2176.1,
+      "z": 751.0
+    },
+    "sceneName": "DirtPark_Highway",
+    "scenePath": "Assets/Scenes/DirtPark/DirtPark_Highway.unity"
+  },
+  {
+    "digsiteId": "Qa",
+    "levelFile": "level254",
+    "mapHash": "363a724a585694998a30e8661b40bc0b",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": 4353.0,
+      "y": -1016.0,
+      "z": 751.0
+    },
+    "sceneName": "Highway_West_Underwater",
+    "scenePath": "Assets/Scenes/Highway/Highway_West_Underwater.unity"
+  },
+  {
+    "digsiteId": "FqQs",
+    "levelFile": "level67",
+    "mapHash": "38fc2d14f91924c7184cb15e5d1fedf8",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 526.0,
+      "y": 336.0,
+      "z": 751.0
+    },
+    "sceneName": "Snow EventResults",
+    "scenePath": "Assets/Scenes/Snow/Snow EventResults.unity"
+  },
+  {
+    "digsiteId": "a8982dd48bb64dd4d9d294b3f448211e",
+    "levelFile": "level14",
+    "mapHash": "41399389493348a408b47987e754a039",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -1225.761,
+      "y": 390.753,
+      "z": 751.0
+    },
+    "sceneName": "Campground_CaveInterior",
+    "scenePath": "Assets/Scenes/Campground/Campground_CaveInterior.unity"
+  },
+  {
+    "digsiteId": "ru",
+    "levelFile": "level410",
+    "mapHash": "45cdc07e4a62d4691ae73cee820c5180",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2211.134,
+      "y": 27.561,
+      "z": 751.0
+    },
+    "sceneName": "Farm Town Underwater",
+    "scenePath": "Assets/Scenes/Farm/Farm Town Underwater.unity"
+  },
+  {
+    "digsiteId": "M4",
+    "levelFile": "level145",
+    "mapHash": "4901dbd93469a434b9a7e37f60c35cff",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 1856.312,
+      "y": 1592.3,
+      "z": 751.0
+    },
+    "sceneName": "Sewer",
+    "scenePath": "Assets/Scenes/Sewer/Sewer.unity"
+  },
+  {
+    "digsiteId": "Pi",
+    "levelFile": "level145",
+    "mapHash": "4901dbd93469a434b9a7e37f60c35cff",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -1757.0,
+      "y": -2969.0,
+      "z": 751.0
+    },
+    "sceneName": "Sewer",
+    "scenePath": "Assets/Scenes/Sewer/Sewer.unity"
+  },
+  {
+    "digsiteId": "eK",
+    "levelFile": "level145",
+    "mapHash": "4901dbd93469a434b9a7e37f60c35cff",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -3127.5,
+      "y": 1596.4,
+      "z": 751.0
+    },
+    "sceneName": "Sewer",
+    "scenePath": "Assets/Scenes/Sewer/Sewer.unity"
+  },
+  {
+    "digsiteId": "FGOM",
+    "levelFile": "level89",
+    "mapHash": "4b1ac88e619e8e84e970d5643c852cf2",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 834.7,
+      "y": -293.6,
+      "z": 751.0
+    },
+    "sceneName": "Snow_CaveInterior",
+    "scenePath": "Assets/Scenes/Snow/Snow_CaveInterior.unity"
+  },
+  {
+    "digsiteId": "7x",
+    "levelFile": "level286",
+    "mapHash": "4bca25ef5a9b56d469f3cedfd3d2dc09",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 1699.119,
+      "y": 256.304,
+      "z": 751.0
+    },
+    "sceneName": "Snow Track",
+    "scenePath": "Assets/Scenes/Snow/Snow Track.unity"
+  },
+  {
+    "digsiteId": "pE",
+    "levelFile": "level286",
+    "mapHash": "4bca25ef5a9b56d469f3cedfd3d2dc09",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -3505.0,
+      "y": -2356.0,
+      "z": 751.0
+    },
+    "sceneName": "Snow Track",
+    "scenePath": "Assets/Scenes/Snow/Snow Track.unity"
+  },
+  {
+    "digsiteId": "bD",
+    "levelFile": "level407",
+    "mapHash": "518cdfde7f7c84dbc94789669b3b4cbe",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -124.9,
+      "y": -3390.9,
+      "z": 751.0
+    },
+    "sceneName": "Farm Town Road Block",
+    "scenePath": "Assets/Scenes/Farm/Farm Town Road Block.unity"
+  },
+  {
+    "digsiteId": "5398396249136f34db81e265c123c5f6",
+    "levelFile": "level11",
+    "mapHash": "5211336acc7bc5d4b95f16ebeb9b1859",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2820.9,
+      "y": 82.9,
+      "z": 751.0
+    },
+    "sceneName": "Campground_Lake",
+    "scenePath": "Assets/Scenes/Campground/Campground_Lake.unity"
+  },
+  {
+    "digsiteId": "9nuR",
+    "levelFile": "level11",
+    "mapHash": "5211336acc7bc5d4b95f16ebeb9b1859",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -1116.0,
+      "y": -2182.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_Lake",
+    "scenePath": "Assets/Scenes/Campground/Campground_Lake.unity"
+  },
+  {
+    "digsiteId": "1l",
+    "levelFile": "level309",
+    "mapHash": "5310f20dfa679ed4d9ac9e696f552d51",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 8036.594,
+      "y": -1417.0,
+      "z": 751.0
+    },
+    "sceneName": "Seaport",
+    "scenePath": "Assets/Scenes/Seaport/Seaport.unity"
+  },
+  {
+    "digsiteId": "f9",
+    "levelFile": "level309",
+    "mapHash": "5310f20dfa679ed4d9ac9e696f552d51",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 4108.0,
+      "y": 541.0,
+      "z": 751.0
+    },
+    "sceneName": "Seaport",
+    "scenePath": "Assets/Scenes/Seaport/Seaport.unity"
+  },
+  {
+    "digsiteId": "jQ",
+    "levelFile": "level299",
+    "mapHash": "5c0233d07db57f2488ef768e2809aa26",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": 259.594,
+      "y": 1076.511,
+      "z": 751.0
+    },
+    "sceneName": "Marina_River",
+    "scenePath": "Assets/Scenes/Town/Marina_River.unity"
+  },
+  {
+    "digsiteId": "oj",
+    "levelFile": "level299",
+    "mapHash": "5c0233d07db57f2488ef768e2809aa26",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -1424.4,
+      "y": 2486.3,
+      "z": 751.0
+    },
+    "sceneName": "Marina_River",
+    "scenePath": "Assets/Scenes/Town/Marina_River.unity"
+  },
+  {
+    "digsiteId": "Fa",
+    "levelFile": "level257",
+    "mapHash": "5dd33ede060b3b24fbdc4f23c9693398",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": 2849.874,
+      "y": -2267.043,
+      "z": 751.0
+    },
+    "sceneName": "Campground_Lake_Underwater",
+    "scenePath": "Assets/Scenes/Campground/Campground_Lake_Underwater.unity"
+  },
+  {
+    "digsiteId": "WE",
+    "levelFile": "level257",
+    "mapHash": "5dd33ede060b3b24fbdc4f23c9693398",
+    "objectName": "DirtMound Rocky (2)",
+    "position": {
+      "x": 2641.0,
+      "y": -787.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_Lake_Underwater",
+    "scenePath": "Assets/Scenes/Campground/Campground_Lake_Underwater.unity"
+  },
+  {
+    "digsiteId": "ai",
+    "levelFile": "level257",
+    "mapHash": "5dd33ede060b3b24fbdc4f23c9693398",
+    "objectName": "DirtMound Rocky (3)",
+    "position": {
+      "x": 461.0,
+      "y": -1385.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_Lake_Underwater",
+    "scenePath": "Assets/Scenes/Campground/Campground_Lake_Underwater.unity"
+  },
+  {
+    "digsiteId": "6v",
+    "levelFile": "level253",
+    "mapHash": "65f4f6542ff0f4de590b580416ff3543",
+    "objectName": "DirtMound Rocky (3)",
+    "position": {
+      "x": 4206.016,
+      "y": -2929.619,
+      "z": 751.0
+    },
+    "sceneName": "65f4f654",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "D4",
+    "levelFile": "level253",
+    "mapHash": "65f4f6542ff0f4de590b580416ff3543",
+    "objectName": "DirtMound Rocky (6)",
+    "position": {
+      "x": 1323.0,
+      "y": -156.0,
+      "z": 751.0
+    },
+    "sceneName": "65f4f654",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "Rx",
+    "levelFile": "level253",
+    "mapHash": "65f4f6542ff0f4de590b580416ff3543",
+    "objectName": "DirtMound Rocky (2)",
+    "position": {
+      "x": 4471.174,
+      "y": 3508.832,
+      "z": 751.0
+    },
+    "sceneName": "65f4f654",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "VB",
+    "levelFile": "level253",
+    "mapHash": "65f4f6542ff0f4de590b580416ff3543",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": -10205.885,
+      "y": 3685.0,
+      "z": 751.0
+    },
+    "sceneName": "65f4f654",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "dA",
+    "levelFile": "level253",
+    "mapHash": "65f4f6542ff0f4de590b580416ff3543",
+    "objectName": "DirtMound Rocky (5)",
+    "position": {
+      "x": -2381.0,
+      "y": -3454.0,
+      "z": 751.0
+    },
+    "sceneName": "65f4f654",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "kQ",
+    "levelFile": "level253",
+    "mapHash": "65f4f6542ff0f4de590b580416ff3543",
+    "objectName": "DirtMound Rocky (4)",
+    "position": {
+      "x": -10282.946,
+      "y": -3100.207,
+      "z": 751.0
+    },
+    "sceneName": "65f4f654",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "AX",
+    "levelFile": "level298",
+    "mapHash": "7a9fc314c854ca849837bbec11aa2c95",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 3756.0,
+      "y": 3106.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_RiverHighway",
+    "scenePath": "Assets/Scenes/Campground/Campground_RiverHighway.unity"
+  },
+  {
+    "digsiteId": "bV",
+    "levelFile": "level298",
+    "mapHash": "7a9fc314c854ca849837bbec11aa2c95",
+    "objectName": "DirtMound (3)",
+    "position": {
+      "x": 7845.1,
+      "y": -2993.2,
+      "z": 751.0
+    },
+    "sceneName": "Campground_RiverHighway",
+    "scenePath": "Assets/Scenes/Campground/Campground_RiverHighway.unity"
+  },
+  {
+    "digsiteId": "lh",
+    "levelFile": "level298",
+    "mapHash": "7a9fc314c854ca849837bbec11aa2c95",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -6781.7,
+      "y": -1820.6,
+      "z": 751.0
+    },
+    "sceneName": "Campground_RiverHighway",
+    "scenePath": "Assets/Scenes/Campground/Campground_RiverHighway.unity"
+  },
+  {
+    "digsiteId": "5c51aa65a69636c40a4d41a2aac3817b",
+    "levelFile": "level17",
+    "mapHash": "7b512eb08c1822346a07bf07c3925174",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -1248.0,
+      "y": 209.0,
+      "z": 751.0
+    },
+    "sceneName": "GolfCourse_Entrance",
+    "scenePath": "Assets/Scenes/Golf Course/GolfCourse_Entrance.unity"
+  },
+  {
+    "digsiteId": "5zZ7",
+    "levelFile": "level116",
+    "mapHash": "7e21c19f688b3454ca69cd6f5097bdfe",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2069.0,
+      "y": -625.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_River",
+    "scenePath": "Assets/Scenes/Campground/Campground_River.unity"
+  },
+  {
+    "digsiteId": "EC",
+    "levelFile": "level418",
+    "mapHash": "7f69ada80968f4b99bfacd94fb1a3dd4",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -7992.0,
+      "y": -2854.0,
+      "z": 751.0
+    },
+    "sceneName": "Farm_Cave",
+    "scenePath": "Assets/Scenes/Farm/Farm_Cave.unity"
+  },
+  {
+    "digsiteId": "1404ade9fa740f345ae8b0b8ef80ca77",
+    "levelFile": "level10",
+    "mapHash": "840c14b6794c684459d8b05bfccf463d",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 568.0,
+      "y": 457.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_RVParkTop",
+    "scenePath": "Assets/Scenes/Campground/Campground_RVParkTop.unity"
+  },
+  {
+    "digsiteId": "ab766a26965a6ac49b7101355f20df83",
+    "levelFile": "level12",
+    "mapHash": "851c3e2334c2f324184277e524c4d024",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 3276.0,
+      "y": 138.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_ParkingLot_Layer_Halloween",
+    "scenePath": "Assets/Scenes/Campground/Layers/Campground_ParkingLot_Layer_Halloween.unity"
+  },
+  {
+    "digsiteId": "e4d7f951179e2bc44b2b8123afaf47ff",
+    "levelFile": "level12",
+    "mapHash": "851c3e2334c2f324184277e524c4d024",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -1569.0,
+      "y": 678.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_ParkingLot_Layer_Halloween",
+    "scenePath": "Assets/Scenes/Campground/Layers/Campground_ParkingLot_Layer_Halloween.unity"
+  },
+  {
+    "digsiteId": "08e4329db71cacc43a31c1ad2b2cd09e",
+    "levelFile": "level6",
+    "mapHash": "8576179ecb645724f9ee4aa0525c772e",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2148.0,
+      "y": -276.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_CampsiteA",
+    "scenePath": "Assets/Scenes/Campground/Campground_CampsiteA.unity"
+  },
+  {
+    "digsiteId": "0c7af979e0efcea4698e03731c2de1e4",
+    "levelFile": "level16",
+    "mapHash": "8930916232d01244a9062947aec24046",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 938.0,
+      "y": -230.945,
+      "z": 751.0
+    },
+    "sceneName": "Campground_TreeInterior",
+    "scenePath": "Assets/Scenes/Campground/Campground_TreeInterior.unity"
+  },
+  {
+    "digsiteId": "D2",
+    "levelFile": "level258",
+    "mapHash": "8f506474009fd4b43a6d6d2dbbf95c1e",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": 3153.0,
+      "y": -1106.0,
+      "z": 751.0
+    },
+    "sceneName": "GolfCourse_DrivingRange_Underwater",
+    "scenePath": "Assets/Scenes/Golf Course/GolfCourse_DrivingRange_Underwater.unity"
+  },
+  {
+    "digsiteId": "10aca965f34a7fa41908ab8c4a9f319a",
+    "levelFile": "level1",
+    "mapHash": "90c09a01e2ed344959ba4b59c583b2d2",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 552.0,
+      "y": -308.0,
+      "z": 751.0
+    },
+    "sceneName": "Golfcourse",
+    "scenePath": "Assets/Scenes/Golf Course/Golfcourse.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "hS",
+    "levelFile": "level1",
+    "mapHash": "90c09a01e2ed344959ba4b59c583b2d2",
+    "objectName": "Digsite",
+    "sceneName": "Golfcourse",
+    "scenePath": "Assets/Scenes/Golf Course/Golfcourse.unity"
+  },
+  {
+    "digsiteId": "yx",
+    "levelFile": "level301",
+    "mapHash": "963db55768d2df348add93df916ddb25",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 3574.879,
+      "y": 2670.425,
+      "z": 751.0
+    },
+    "sceneName": "GolfCourse_CaveInterior",
+    "scenePath": "Assets/Scenes/Golf Course/GolfCourse_CaveInterior.unity"
+  },
+  {
+    "digsiteId": "Vp",
+    "levelFile": "level302",
+    "mapHash": "9bbf662e12d62f841a646bce4a5f89bb",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2044.6,
+      "y": -336.9,
+      "z": 751.0
+    },
+    "sceneName": "Island_CaveInterior",
+    "scenePath": "Assets/Scenes/Island/Island_CaveInterior.unity"
+  },
+  {
+    "digsiteId": "De",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound (4)",
+    "position": {
+      "x": -4314.2,
+      "y": 1412.1,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "Io",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -5809.0,
+      "y": 1975.0,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "LE",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound Sand (1)",
+    "position": {
+      "x": 1687.3,
+      "y": 1607.7,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "Nl",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound Sand (5)",
+    "position": {
+      "x": 685.0,
+      "y": 2366.0,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "Q8",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound Sand (3)",
+    "position": {
+      "x": -3303.0,
+      "y": 2928.796,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "Va",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound Sand (2)",
+    "position": {
+      "x": 431.0,
+      "y": -2235.0,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "eq",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound (3)",
+    "position": {
+      "x": -6323.969,
+      "y": -759.209,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "fH",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound Sand (4)",
+    "position": {
+      "x": -6548.9,
+      "y": -9.0,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "hC",
+    "levelFile": "level183",
+    "mapHash": "a2026402baa8e894b98b8039f85824e4",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -3078.0,
+      "y": -280.0,
+      "z": 751.0
+    },
+    "sceneName": "Island",
+    "scenePath": "Assets/Scenes/Island/Island.unity"
+  },
+  {
+    "digsiteId": "do",
+    "levelFile": "level304",
+    "mapHash": "a341ecb72ae827f4089fd1547edc43d5",
+    "objectName": "DirtMound Rocky (2)",
+    "position": {
+      "x": 1525.0,
+      "y": -986.2,
+      "z": 751.0
+    },
+    "sceneName": "Campground_River_Underwater",
+    "scenePath": "Assets/Scenes/Campground/Campground_River_Underwater.unity"
+  },
+  {
+    "digsiteId": "4abdad5f974dcb54f91082f73e6c7bd9",
+    "levelFile": "level37",
+    "mapHash": "a664d3aef85446047b876d11a648a0d5",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -11.0,
+      "y": -2522.0,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack_Entrance_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Racetrack/Layers/Racetrack_Entrance_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "c196f0e357eabd4408fb9a02fed8f448",
+    "levelFile": "level37",
+    "mapHash": "a664d3aef85446047b876d11a648a0d5",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 2188.0,
+      "y": -1265.0,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack_Entrance_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Racetrack/Layers/Racetrack_Entrance_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "e5d11a15d1c043a43a9d7b2fd3b70591",
+    "levelFile": "level37",
+    "mapHash": "a664d3aef85446047b876d11a648a0d5",
+    "objectName": "DirtMound (3)",
+    "position": {
+      "x": -4925.812,
+      "y": 757.587,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack_Entrance_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Racetrack/Layers/Racetrack_Entrance_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "IFYW",
+    "levelFile": "level98",
+    "mapHash": "a89a600886a4bdd4b8498736055aa9c6",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -2048.0,
+      "y": -1398.0,
+      "z": 751.0
+    },
+    "sceneName": "Highway_West_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Highway/Layers/Highway_West_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "kmLO",
+    "levelFile": "level98",
+    "mapHash": "a89a600886a4bdd4b8498736055aa9c6",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 5016.4,
+      "y": 1113.3,
+      "z": 751.0
+    },
+    "sceneName": "Highway_West_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Highway/Layers/Highway_West_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "DP",
+    "levelFile": "level180",
+    "mapHash": "ac8b9bd17b43c064f8b64ceb3a013e7a",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 3999.0,
+      "y": 1995.0,
+      "z": 751.0
+    },
+    "sceneName": "Marina",
+    "scenePath": "Assets/Scenes/Town/Marina.unity"
+  },
+  {
+    "digsiteId": "H2",
+    "levelFile": "level180",
+    "mapHash": "ac8b9bd17b43c064f8b64ceb3a013e7a",
+    "objectName": "DirtMound Rocky (2)",
+    "position": {
+      "x": 4139.0,
+      "y": 1060.0,
+      "z": 751.0
+    },
+    "sceneName": "Marina",
+    "scenePath": "Assets/Scenes/Town/Marina.unity"
+  },
+  {
+    "digsiteId": "RM",
+    "levelFile": "level180",
+    "mapHash": "ac8b9bd17b43c064f8b64ceb3a013e7a",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 351.0,
+      "y": 1406.0,
+      "z": 751.0
+    },
+    "sceneName": "Marina",
+    "scenePath": "Assets/Scenes/Town/Marina.unity"
+  },
+  {
+    "digsiteId": "xA",
+    "levelFile": "level180",
+    "mapHash": "ac8b9bd17b43c064f8b64ceb3a013e7a",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": -1481.962,
+      "y": 1066.218,
+      "z": 751.0
+    },
+    "sceneName": "Marina",
+    "scenePath": "Assets/Scenes/Town/Marina.unity"
+  },
+  {
+    "digsiteId": "xe",
+    "levelFile": "level303",
+    "mapHash": "ad4954439bb3254459b989ed1663e8a9",
+    "objectName": "DirtMound Rocky (3)",
+    "position": {
+      "x": 538.0,
+      "y": -1016.0,
+      "z": 751.0
+    },
+    "sceneName": "ad495443",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "8HKy",
+    "levelFile": "level118",
+    "mapHash": "b69b56e70bba4c14ea3f8ee5b1a6f47d",
+    "objectName": "DirtMounds",
+    "position": {
+      "x": 3171.0,
+      "y": 2739.408,
+      "z": 751.0
+    },
+    "sceneName": "Town",
+    "scenePath": "Assets/Scenes/Town/Town.unity"
+  },
+  {
+    "digsiteId": "CEKh",
+    "levelFile": "level118",
+    "mapHash": "b69b56e70bba4c14ea3f8ee5b1a6f47d",
+    "objectName": "DirtMounds",
+    "position": {
+      "x": 3171.0,
+      "y": 2739.408,
+      "z": 751.0
+    },
+    "sceneName": "Town",
+    "scenePath": "Assets/Scenes/Town/Town.unity"
+  },
+  {
+    "digsiteId": "KA1K",
+    "levelFile": "level118",
+    "mapHash": "b69b56e70bba4c14ea3f8ee5b1a6f47d",
+    "objectName": "DirtMounds",
+    "position": {
+      "x": 3171.0,
+      "y": 2739.408,
+      "z": 751.0
+    },
+    "sceneName": "Town",
+    "scenePath": "Assets/Scenes/Town/Town.unity"
+  },
+  {
+    "digsiteId": "MuCd",
+    "levelFile": "level118",
+    "mapHash": "b69b56e70bba4c14ea3f8ee5b1a6f47d",
+    "objectName": "DirtMounds",
+    "position": {
+      "x": 3171.0,
+      "y": 2739.408,
+      "z": 751.0
+    },
+    "sceneName": "Town",
+    "scenePath": "Assets/Scenes/Town/Town.unity"
+  },
+  {
+    "digsiteId": "SrlE",
+    "levelFile": "level118",
+    "mapHash": "b69b56e70bba4c14ea3f8ee5b1a6f47d",
+    "objectName": "DirtMounds",
+    "position": {
+      "x": 3171.0,
+      "y": 2739.408,
+      "z": 751.0
+    },
+    "sceneName": "Town",
+    "scenePath": "Assets/Scenes/Town/Town.unity"
+  },
+  {
+    "digsiteId": "mpyD",
+    "levelFile": "level118",
+    "mapHash": "b69b56e70bba4c14ea3f8ee5b1a6f47d",
+    "objectName": "DirtMounds",
+    "position": {
+      "x": 3171.0,
+      "y": 2739.408,
+      "z": 751.0
+    },
+    "sceneName": "Town",
+    "scenePath": "Assets/Scenes/Town/Town.unity"
+  },
+  {
+    "digsiteId": "xAZo",
+    "levelFile": "level118",
+    "mapHash": "b69b56e70bba4c14ea3f8ee5b1a6f47d",
+    "objectName": "DirtMounds",
+    "position": {
+      "x": 3171.0,
+      "y": 2739.408,
+      "z": 751.0
+    },
+    "sceneName": "Town",
+    "scenePath": "Assets/Scenes/Town/Town.unity"
+  },
+  {
+    "digsiteId": "R6",
+    "levelFile": "level96",
+    "mapHash": "b6dc289ca0b07b3469d9ea799486f033",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -4057.9,
+      "y": 2019.7,
+      "z": 751.0
+    },
+    "sceneName": "Stripmall",
+    "scenePath": "Assets/Scenes/Town/Stripmall.unity"
+  },
+  {
+    "digsiteId": "gF",
+    "levelFile": "level96",
+    "mapHash": "b6dc289ca0b07b3469d9ea799486f033",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -8019.1,
+      "y": 627.0,
+      "z": 751.0
+    },
+    "sceneName": "Stripmall",
+    "scenePath": "Assets/Scenes/Town/Stripmall.unity"
+  },
+  {
+    "digsiteId": "cf29a08a86eb5c54daa5678d74f28425",
+    "levelFile": "level13",
+    "mapHash": "bcae57359098a5948b6984a62b8ed3cb",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 1798.0,
+      "y": -1432.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_CampsiteCD_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Campground/Layers/Campground_CampsiteCD_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "VS",
+    "levelFile": "level269",
+    "mapHash": "c13101f490be3a64ab08f57029d5095b",
+    "objectName": "DirtMound Rocky (2)",
+    "position": {
+      "x": -2186.7,
+      "y": 1693.2,
+      "z": 751.0
+    },
+    "sceneName": "c13101f4",
+    "scenePath": ""
+  },
+  {
+    "digsiteId": "iw",
+    "levelFile": "level269",
+    "mapHash": "c13101f490be3a64ab08f57029d5095b",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": 4461.0,
+      "y": 487.0,
+      "z": 751.0
+    },
+    "sceneName": "c13101f4",
+    "scenePath": ""
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "OQ",
+    "levelFile": "level68",
+    "mapHash": "c82593e1a63e74fc18803d56114222d9",
+    "objectName": "Digsite",
+    "sceneName": "Snow Peak",
+    "scenePath": "Assets/Scenes/Snow/Snow Peak.unity"
+  },
+  {
+    "digsiteId": "99pr",
+    "levelFile": "level147",
+    "mapHash": "c8902e20d1b646f478ab33c8347b78a4",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 2615.156,
+      "y": 1356.769,
+      "z": 751.0
+    },
+    "sceneName": "Snow Hot Springs",
+    "scenePath": "Assets/Scenes/Snow/Snow Hot Springs.unity"
+  },
+  {
+    "digsiteId": "BMNk",
+    "levelFile": "level147",
+    "mapHash": "c8902e20d1b646f478ab33c8347b78a4",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 922.0,
+      "y": 663.0,
+      "z": 751.0
+    },
+    "sceneName": "Snow Hot Springs",
+    "scenePath": "Assets/Scenes/Snow/Snow Hot Springs.unity"
+  },
+  {
+    "digsiteId": "5ALI",
+    "levelFile": "level94",
+    "mapHash": "ca256aa3d9ecd1a4cb87ae2a43f8adf2",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 3220.0,
+      "y": -1157.892,
+      "z": 751.0
+    },
+    "sceneName": "LumberMill",
+    "scenePath": "Assets/Scenes/LumberMill/LumberMill.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "Bu",
+    "levelFile": "level94",
+    "mapHash": "ca256aa3d9ecd1a4cb87ae2a43f8adf2",
+    "objectName": "Digsite",
+    "sceneName": "LumberMill",
+    "scenePath": "Assets/Scenes/LumberMill/LumberMill.unity"
+  },
+  {
+    "digsiteId": "NZA9",
+    "levelFile": "level94",
+    "mapHash": "ca256aa3d9ecd1a4cb87ae2a43f8adf2",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2606.0,
+      "y": 176.0,
+      "z": 751.0
+    },
+    "sceneName": "LumberMill",
+    "scenePath": "Assets/Scenes/LumberMill/LumberMill.unity"
+  },
+  {
+    "digsiteId": "eg",
+    "levelFile": "level259",
+    "mapHash": "ca675638f097b8246bc48f306553d1c1",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": 2365.4,
+      "y": 1495.5,
+      "z": 751.0
+    },
+    "sceneName": "Snow_CaveInterior_Underwater",
+    "scenePath": "Assets/Scenes/Snow/Snow_CaveInterior_Underwater.unity"
+  },
+  {
+    "digsiteId": "ff4b608103116fc488a8017ec3859fd0",
+    "levelFile": "level15",
+    "mapHash": "cf4c9a1f0f39c824fb8c88c8da9dad05",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 327.751,
+      "y": -575.046,
+      "z": 751.0
+    },
+    "sceneName": "Campground_CaveEntrance",
+    "scenePath": "Assets/Scenes/Campground/Campground_CaveEntrance.unity"
+  },
+  {
+    "digsiteId": "E1",
+    "levelFile": "level279",
+    "mapHash": "d3ec1f6d5c29b5f4db4b0a4863ec3491",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 8085.1,
+      "y": 265.611,
+      "z": 751.0
+    },
+    "sceneName": "DirtPark_Track",
+    "scenePath": "Assets/Scenes/DirtPark/DirtPark_Track.unity"
+  },
+  {
+    "digsiteId": "M4",
+    "levelFile": "level355",
+    "mapHash": "d9d3ee51fcdaacf44afe2e7803e03499",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -1691.8,
+      "y": -19.1,
+      "z": 751.0
+    },
+    "sceneName": "Sewer_SecretWarehouse",
+    "scenePath": "Assets/Scenes/Sewer/Sewer_SecretWarehouse.unity"
+  },
+  {
+    "digsiteId": "1fc3dc4187f6b4646b5d8d84dd58dfee",
+    "levelFile": "level27",
+    "mapHash": "dc7474886c190d044b53079255fbc91a",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2137.7,
+      "y": 1407.8,
+      "z": 751.0
+    },
+    "sceneName": "Highway_East_MountainPass",
+    "scenePath": "Assets/Scenes/Highway/Highway_East_MountainPass.unity"
+  },
+  {
+    "digsiteId": "b736f76b070293d4ab6553bce90be593",
+    "levelFile": "level27",
+    "mapHash": "dc7474886c190d044b53079255fbc91a",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 4852.652,
+      "y": -1854.806,
+      "z": 751.0
+    },
+    "sceneName": "Highway_East_MountainPass",
+    "scenePath": "Assets/Scenes/Highway/Highway_East_MountainPass.unity"
+  },
+  {
+    "digsiteId": "3606fd57ce172e148978a71037228262",
+    "levelFile": "level53",
+    "mapHash": "e052f10e4dc33bd4090db911165b8491",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 1953.0,
+      "y": 1278.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_LakeMaze",
+    "scenePath": "Assets/Scenes/Campground/Campground_LakeMaze.unity"
+  },
+  {
+    "digsiteId": "3ea58c33c5ecbfc498823722f3a65bdb",
+    "levelFile": "level53",
+    "mapHash": "e052f10e4dc33bd4090db911165b8491",
+    "objectName": "DirtMound (4)",
+    "position": {
+      "x": -831.0,
+      "y": -1566.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_LakeMaze",
+    "scenePath": "Assets/Scenes/Campground/Campground_LakeMaze.unity"
+  },
+  {
+    "digsiteId": "dbb6dba8e56564d438f948cd043fe145",
+    "levelFile": "level53",
+    "mapHash": "e052f10e4dc33bd4090db911165b8491",
+    "objectName": "DirtMound (3)",
+    "position": {
+      "x": 491.0,
+      "y": 339.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_LakeMaze",
+    "scenePath": "Assets/Scenes/Campground/Campground_LakeMaze.unity"
+  },
+  {
+    "confidence": "scene-only",
+    "digsiteId": "sD",
+    "levelFile": "level53",
+    "mapHash": "e052f10e4dc33bd4090db911165b8491",
+    "objectName": "Digsite",
+    "sceneName": "Campground_LakeMaze",
+    "scenePath": "Assets/Scenes/Campground/Campground_LakeMaze.unity"
+  },
+  {
+    "digsiteId": "BB",
+    "levelFile": "level260",
+    "mapHash": "e0cc4dd9c8752d7468c0bad5872a4443",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": -1937.535,
+      "y": -270.644,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack_Results_Underwater",
+    "scenePath": "Assets/Scenes/Racetrack/Racetrack_Results_Underwater.unity"
+  },
+  {
+    "digsiteId": "OX",
+    "levelFile": "level260",
+    "mapHash": "e0cc4dd9c8752d7468c0bad5872a4443",
+    "objectName": "DirtMound Rocky (2)",
+    "position": {
+      "x": -1004.134,
+      "y": 596.037,
+      "z": 751.0
+    },
+    "sceneName": "Racetrack_Results_Underwater",
+    "scenePath": "Assets/Scenes/Racetrack/Racetrack_Results_Underwater.unity"
+  },
+  {
+    "digsiteId": "607e3c6deda4fa14781b029037eab8d6",
+    "levelFile": "level18",
+    "mapHash": "e2462d9d9c2853641a584aa5842cbb84",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -857.0,
+      "y": 40.0,
+      "z": 751.0
+    },
+    "sceneName": "GolfCourse_DrivingRange",
+    "scenePath": "Assets/Scenes/Golf Course/GolfCourse_DrivingRange.unity"
+  },
+  {
+    "digsiteId": "8U",
+    "levelFile": "level18",
+    "mapHash": "e2462d9d9c2853641a584aa5842cbb84",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -3379.543,
+      "y": -1526.992,
+      "z": 751.0
+    },
+    "sceneName": "GolfCourse_DrivingRange",
+    "scenePath": "Assets/Scenes/Golf Course/GolfCourse_DrivingRange.unity"
+  },
+  {
+    "digsiteId": "Ix",
+    "levelFile": "level87",
+    "mapHash": "e52944023fbeaa749ba25b65025a25a7",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 494.0,
+      "y": 188.0,
+      "z": 751.0
+    },
+    "sceneName": "GolfCourse_Long Drive",
+    "scenePath": "Assets/Scenes/Golf Course/GolfCourse_Long Drive.unity"
+  },
+  {
+    "digsiteId": "0K",
+    "levelFile": "level197",
+    "mapHash": "e6346e5ad10bc6b4882f4fe660a08bf1",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -2125.2,
+      "y": 3805.6,
+      "z": 751.0
+    },
+    "sceneName": "Ocean Rocky",
+    "scenePath": "Assets/Scenes/Ocean/Ocean Rocky.unity"
+  },
+  {
+    "digsiteId": "c5bf0e10bd2a0804aa90dfc7e1ad6c8b",
+    "levelFile": "level8",
+    "mapHash": "eba1dfee3f1e73b45bf48c7d42fc2246",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2124.0,
+      "y": -400.0,
+      "z": 751.0
+    },
+    "sceneName": "Campground_Hub",
+    "scenePath": "Assets/Scenes/Campground/Campground_Hub.unity"
+  },
+  {
+    "digsiteId": "f2992b3357a2d0a4595de64d44a73657",
+    "levelFile": "level8",
+    "mapHash": "eba1dfee3f1e73b45bf48c7d42fc2246",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 1332.0,
+      "y": 1712.8,
+      "z": 751.0
+    },
+    "sceneName": "Campground_Hub",
+    "scenePath": "Assets/Scenes/Campground/Campground_Hub.unity"
+  },
+  {
+    "digsiteId": "M4",
+    "levelFile": "level321",
+    "mapHash": "ee650696a87ebd54ca80f39aebee7ec5",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": -2533.9,
+      "y": 1564.0,
+      "z": 751.0
+    },
+    "sceneName": "Sewer_Seaport",
+    "scenePath": "Assets/Scenes/Sewer/Sewer_Seaport.unity"
+  },
+  {
+    "digsiteId": "us",
+    "levelFile": "level262",
+    "mapHash": "f0cfec9d6fa9f7e448983bd22929c999",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": -458.344,
+      "y": 617.581,
+      "z": 751.0
+    },
+    "sceneName": "Snow Main Underwater",
+    "scenePath": "Assets/Scenes/Snow/Snow Main Underwater.unity"
+  },
+  {
+    "digsiteId": "CV",
+    "levelFile": "level261",
+    "mapHash": "f24e8e3c09469e844a7101ee484f5147",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": 4056.0,
+      "y": -1247.0,
+      "z": 751.0
+    },
+    "sceneName": "Marina_Underwater",
+    "scenePath": "Assets/Scenes/Town/Marina_Underwater.unity"
+  },
+  {
+    "digsiteId": "Hh",
+    "levelFile": "level261",
+    "mapHash": "f24e8e3c09469e844a7101ee484f5147",
+    "objectName": "DirtMound Rocky (3)",
+    "position": {
+      "x": -2165.0,
+      "y": -450.0,
+      "z": 751.0
+    },
+    "sceneName": "Marina_Underwater",
+    "scenePath": "Assets/Scenes/Town/Marina_Underwater.unity"
+  },
+  {
+    "digsiteId": "pz",
+    "levelFile": "level261",
+    "mapHash": "f24e8e3c09469e844a7101ee484f5147",
+    "objectName": "DirtMound Rocky (2)",
+    "position": {
+      "x": 847.0,
+      "y": -1489.0,
+      "z": 751.0
+    },
+    "sceneName": "Marina_Underwater",
+    "scenePath": "Assets/Scenes/Town/Marina_Underwater.unity"
+  },
+  {
+    "digsiteId": "019b52e834b58ec4387f24d2893eaf40",
+    "levelFile": "level26",
+    "mapHash": "f4617792c91f17d4b87089879062cea8",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 1579.0,
+      "y": 2866.0,
+      "z": 751.0
+    },
+    "sceneName": "Highway_4WayIntersection_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Highway/Layers/Highway_4WayIntersection_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "d8d83710de7259b4b9a6e60268281462",
+    "levelFile": "level26",
+    "mapHash": "f4617792c91f17d4b87089879062cea8",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": 1816.299,
+      "y": -2587.797,
+      "z": 751.0
+    },
+    "sceneName": "Highway_4WayIntersection_Layer_Emergency",
+    "scenePath": "Assets/Scenes/Highway/Layers/Highway_4WayIntersection_Layer_Emergency.unity"
+  },
+  {
+    "digsiteId": "RI",
+    "levelFile": "level235",
+    "mapHash": "f63cc2cc075a445b883c7fc44acfed05",
+    "objectName": "DirtMound (2)",
+    "position": {
+      "x": -2949.0,
+      "y": 1536.0,
+      "z": 751.0
+    },
+    "sceneName": "Snow Snowball",
+    "scenePath": "Assets/Scenes/Snow/Snow Snowball.unity"
+  },
+  {
+    "digsiteId": "ac",
+    "levelFile": "level235",
+    "mapHash": "f63cc2cc075a445b883c7fc44acfed05",
+    "objectName": "DirtMound (1)",
+    "position": {
+      "x": 2263.0,
+      "y": 6.0,
+      "z": 751.0
+    },
+    "sceneName": "Snow Snowball",
+    "scenePath": "Assets/Scenes/Snow/Snow Snowball.unity"
+  },
+  {
+    "digsiteId": "bS",
+    "levelFile": "level252",
+    "mapHash": "f689e641b5ec7470d923eae12eedd349",
+    "objectName": "DirtMound Rocky (1)",
+    "position": {
+      "x": -210.0,
+      "y": -366.0,
+      "z": 751.0
+    },
+    "sceneName": "f689e641",
+    "scenePath": ""
+  }
+]
