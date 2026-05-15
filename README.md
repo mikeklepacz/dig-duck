@@ -13,6 +13,13 @@ This is an unofficial community tool and is not affiliated with RAC7, Apple Arca
 - Shows exact wiki guide matches when known.
 - Shows possible guide matches when the exact save ID to wiki number mapping still needs confirmation.
 
+## Version 1.0.1
+
+- Counts missing digsites against a full-game baseline instead of only the digsite objects already present in each save slot.
+- Uses a completed save slot as the authoritative digsite checklist when one is available.
+- Moves the local API to port `4174` so the app keeps working when Vite falls back from `5173` to `5174`.
+- Adds a small app favicon to avoid a missing favicon warning in development.
+
 ## Requirements
 
 - macOS
@@ -32,6 +39,8 @@ Then open:
 ```text
 http://127.0.0.1:5173/
 ```
+
+If port `5173` is already in use, Vite will print the alternate local URL to open.
 
 The app expects Sneaky Sasquatch saves in the normal Apple Arcade container:
 

@@ -70,8 +70,18 @@ type SlotSummary = {
   all: SaveDigsite[];
 };
 
+type SlotDigsiteState = {
+  dug: boolean;
+  rawHd: unknown;
+};
+
+type SlotFiles = {
+  achievements: Record<string, unknown> | null;
+  sasquatch: Record<string, unknown> | null;
+};
+
 const app = express();
-const port = Number(process.env.PORT ?? 5174);
+const port = Number(process.env.PORT ?? process.env.API_PORT ?? 4174);
 const saveRoot =
   process.env.SASQUATCH_SAVE_DIR ??
   path.join(
@@ -254,17 +264,12 @@ function normalizeSceneName(sceneName?: string) {
   return sceneName.replace(/_/g, " ").replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
-async function scanSlot(
-  slotId: string,
-  catalog: Map<string, CatalogEntry>,
-  wikiGuide: Awaited<ReturnType<typeof getWikiGuide>>
-): Promise<SlotSummary> {
+async function getSlotDigsites(slotId: string) {
   const slotPath = path.join(saveRoot, slotId);
   const mapPath = path.join(slotPath, "map");
-  const exists = existsSync(slotPath);
-  const all: SaveDigsite[] = [];
+  const digsites = new Map<string, SlotDigsiteState>();
 
-  if (exists && existsSync(mapPath)) {
+  if (existsSync(slotPath) && existsSync(mapPath)) {
     const files = await readdir(mapPath);
     await Promise.all(
       files
@@ -276,47 +281,82 @@ async function scanSlot(
           );
           for (const object of data?.objects ?? []) {
             if (object.st !== "digsite" || typeof object.id !== "string") continue;
-
-            const entry = catalog.get(catalogKey(mapHash, object.id));
-            const sceneOverride = sceneOverridesByMapHash[mapHash];
-            const confidence = entry?.confidence === "scene-only" ? "scene-only" : entry?.confidence ? "catalog-fallback" : entry ? "catalog" : "unknown";
-            const wikiMapping = wikiGuide.mappingBySaveId.get(catalogKey(mapHash, object.id));
-            const wikiSpot = wikiMapping ? wikiGuide.spotByNumber.get(wikiMapping.wikiNumber) : undefined;
-            const site: SaveDigsite = {
-              mapHash,
-              digsiteId: object.id,
+            digsites.set(catalogKey(mapHash, object.id), {
               dug: object.hd === 1,
-              rawHd: object.hd,
-              scenePath: entry?.scenePath || sceneOverride?.scenePath,
-              sceneName: normalizeSceneName(entry?.scenePath ? entry.sceneName : sceneOverride?.sceneName ?? entry?.sceneName),
-              levelFile: entry?.levelFile,
-              objectName: entry?.objectName,
-              position: entry?.position,
-              confidence,
-              wiki:
-                wikiMapping && wikiSpot
-                  ? {
-                      ...wikiSpot,
-                      mappingConfidence: wikiMapping.confidence,
-                      mappingNote: wikiMapping.note
-                    }
-                  : undefined,
-              wikiCandidates: []
-            };
-            site.wikiCandidates = findWikiCandidates(site, wikiGuide.spots);
-            all.push(site);
+              rawHd: object.hd
+            });
           }
         })
     );
   }
+
+  return digsites;
+}
+
+async function getSlotFiles(slotId: string): Promise<SlotFiles> {
+  const slotPath = path.join(saveRoot, slotId);
+  const [achievements, sasquatch] = await Promise.all([
+    readJson<Record<string, unknown>>(path.join(slotPath, "achievements.stuff")),
+    readJson<Record<string, unknown>>(path.join(slotPath, "sasquatch.stuff"))
+  ]);
+  return { achievements, sasquatch };
+}
+
+function buildSite(
+  key: string,
+  state: SlotDigsiteState | undefined,
+  catalog: Map<string, CatalogEntry>,
+  wikiGuide: Awaited<ReturnType<typeof getWikiGuide>>
+) {
+  const [mapHash, digsiteId] = key.split(":");
+  const entry = catalog.get(key);
+  const sceneOverride = sceneOverridesByMapHash[mapHash];
+  const confidence = entry?.confidence === "scene-only" ? "scene-only" : entry?.confidence ? "catalog-fallback" : entry ? "catalog" : "unknown";
+  const wikiMapping = wikiGuide.mappingBySaveId.get(key);
+  const wikiSpot = wikiMapping ? wikiGuide.spotByNumber.get(wikiMapping.wikiNumber) : undefined;
+  const site: SaveDigsite = {
+    mapHash,
+    digsiteId,
+    dug: state?.dug ?? false,
+    rawHd: state?.rawHd ?? null,
+    scenePath: entry?.scenePath || sceneOverride?.scenePath,
+    sceneName: normalizeSceneName(entry?.scenePath ? entry.sceneName : sceneOverride?.sceneName ?? entry?.sceneName),
+    levelFile: entry?.levelFile,
+    objectName: entry?.objectName,
+    position: entry?.position,
+    confidence,
+    wiki:
+      wikiMapping && wikiSpot
+        ? {
+            ...wikiSpot,
+            mappingConfidence: wikiMapping.confidence,
+            mappingNote: wikiMapping.note
+          }
+        : undefined,
+    wikiCandidates: []
+  };
+  site.wikiCandidates = findWikiCandidates(site, wikiGuide.spots);
+  return site;
+}
+
+async function scanSlot(
+  slotId: string,
+  baselineKeys: string[],
+  slotDigsites: Map<string, SlotDigsiteState>,
+  slotFiles: SlotFiles,
+  catalog: Map<string, CatalogEntry>,
+  wikiGuide: Awaited<ReturnType<typeof getWikiGuide>>
+): Promise<SlotSummary> {
+  const slotPath = path.join(saveRoot, slotId);
+  const exists = existsSync(slotPath);
+  const all = baselineKeys.map((key) => buildSite(key, slotDigsites.get(key), catalog, wikiGuide));
 
   all.sort((a, b) => {
     const scene = (a.sceneName ?? a.mapHash).localeCompare(b.sceneName ?? b.mapHash);
     return scene || a.digsiteId.localeCompare(b.digsiteId);
   });
 
-  const achievements = await readJson<Record<string, unknown>>(path.join(slotPath, "achievements.stuff"));
-  const sasquatch = await readJson<Record<string, unknown>>(path.join(slotPath, "sasquatch.stuff"));
+  const { achievements, sasquatch } = slotFiles;
   const missing = all.filter((site) => !site.dug);
 
   return {
@@ -339,8 +379,36 @@ async function scanSlot(
 app.get("/api/scan", async (_request, response) => {
   try {
     const [catalog, wikiGuide] = await Promise.all([getCatalog(), getWikiGuide()]);
+    const slotIds = ["default", "default2", "default3"];
+    const [slotDigsiteEntries, slotFileEntries] = await Promise.all([
+      Promise.all(slotIds.map(async (slotId) => [slotId, await getSlotDigsites(slotId)] as const)),
+      Promise.all(slotIds.map(async (slotId) => [slotId, await getSlotFiles(slotId)] as const))
+    ]);
+    const slotDigsites = new Map(slotDigsiteEntries);
+    const slotFiles = new Map(slotFileEntries);
+    const completedSlot = slotIds.find((slotId) => {
+      const digsites = slotDigsites.get(slotId) ?? new Map();
+      const achievementCount = slotFiles.get(slotId)?.achievements?.["13"];
+      const dugCount = [...digsites.values()].filter((site) => site.dug).length;
+      return typeof achievementCount === "number" && achievementCount > 0 && achievementCount === dugCount;
+    });
+    const observedKeys = new Set([...slotDigsites.values()].flatMap((digsites) => [...digsites.keys()]));
+    const baselineKeys = completedSlot
+      ? [...(slotDigsites.get(completedSlot) ?? new Map()).keys()]
+      : [...catalog.entries()]
+          .filter(([, entry]) => entry.confidence !== "scene-only" || observedKeys.has(catalogKey(entry.mapHash, entry.digsiteId)))
+          .map(([key]) => key);
     const slots = await Promise.all(
-      ["default", "default2", "default3"].map((slot) => scanSlot(slot, catalog, wikiGuide))
+      slotIds.map((slot) =>
+        scanSlot(
+          slot,
+          baselineKeys,
+          slotDigsites.get(slot) ?? new Map(),
+          slotFiles.get(slot) ?? { achievements: null, sasquatch: null },
+          catalog,
+          wikiGuide
+        )
+      )
     );
     response.json({
       saveRoot,
