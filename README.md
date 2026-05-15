@@ -6,16 +6,21 @@ This is an unofficial community tool and is not affiliated with RAC7, Apple Arca
 
 ## Quick Start
 
-Dig Duck is not packaged as a double-click Mac app yet. For now, you run it locally from this project folder.
+Dig Duck is not packaged as a full Mac app yet, but the release zip includes a double-click launcher.
 
 1. Install [Node.js 20 or newer](https://nodejs.org/).
-2. Download this project from GitHub:
-   - Click the green **Code** button.
-   - Click **Download ZIP**.
-   - Unzip the file.
-3. Open **Terminal**.
-4. Type `cd `, drag the unzipped `dig-duck` folder into Terminal, then press **Return**.
-5. Run these commands:
+2. Download `Dig-Duck-1.0.1.zip` from the [latest release](https://github.com/mikeklepacz/dig-duck/releases/tag/v1.0.1).
+3. Unzip it.
+4. Double-click `Run Dig Duck.command`.
+5. If macOS blocks the launcher, right-click `Run Dig Duck.command`, choose **Open**, then choose **Open** again.
+
+The launcher installs the needed packages the first time, downloads the wiki guide images, starts Dig Duck, and opens it in your browser.
+
+Leave the launcher Terminal window open while using Dig Duck. Press `Control-C` in that window when you are done.
+
+## Manual Run
+
+If the launcher does not work, open **Terminal**, type `cd `, drag the unzipped `dig-duck` folder into Terminal, press **Return**, then run:
 
 ```bash
 npm install
@@ -23,15 +28,13 @@ npm run fetch:wiki
 npm run dev
 ```
 
-6. Open the local web address printed by Terminal. It is usually:
+Open the local web address printed by Terminal. It is usually:
 
 ```text
-http://127.0.0.1:5173/
+http://127.0.0.1:5175/
 ```
 
-If port `5173` is already in use, Terminal will print a different local address such as `http://127.0.0.1:5174/`. Use the address Terminal prints.
-
-Leave Terminal open while using Dig Duck. Press `Control-C` in Terminal when you are done.
+If port `5175` is already in use, Terminal will print a different local address. Use the address Terminal prints.
 
 ## Requirements
 
