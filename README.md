@@ -6,38 +6,27 @@ This is an unofficial community tool and is not affiliated with RAC7, Apple Arca
 
 ## Quick Start
 
-Dig Duck is not packaged as a full Mac app yet, but the release zip includes a double-click launcher.
+Dig Duck is not packaged as a signed Mac app yet. Because of that, macOS may block the double-click launcher after download.
 
 1. Install [Node.js 20 or newer](https://nodejs.org/).
 2. Download `Dig-Duck-1.0.1.zip` from the [latest release](https://github.com/mikeklepacz/dig-duck/releases/tag/v1.0.1).
 3. Unzip it.
-4. Double-click `Run Dig Duck.command`.
+4. Open `START HERE.txt`.
+5. Follow the Terminal steps there.
 
-The launcher installs the needed packages the first time, downloads the wiki guide images, starts Dig Duck, and opens it in your browser.
+The Terminal steps install the needed packages, download the wiki guide images, start Dig Duck, and show the local browser address.
 
-Leave the launcher Terminal window open while using Dig Duck. Press `Control-C` in that window when you are done.
+Leave Terminal open while using Dig Duck. Press `Control-C` in that window when you are done.
 
-## If macOS Blocks the Launcher
+## Optional Launcher
 
-Because this is a free unsigned download, macOS may show:
+The zip also includes `Run Dig Duck.command`, which tries to do the Terminal steps automatically.
+
+If macOS shows this message, use the manual Terminal steps instead:
 
 ```text
 Apple could not verify "Run Dig Duck.command" is free of malware.
 ```
-
-If that happens:
-
-1. Click **Done**.
-2. Open **Terminal**.
-3. Type this command, including the space at the end:
-
-```bash
-xattr -dr com.apple.quarantine 
-```
-
-4. Drag the unzipped `dig-duck` folder into Terminal.
-5. Press **Return**.
-6. Double-click `Run Dig Duck.command` again.
 
 ## Manual Run
 

@@ -1,0 +1,34 @@
+Dig Duck 1.0.1
+
+Dig Duck is not a signed Mac app yet, so macOS may block the double-click launcher after download.
+
+The most reliable way to run it:
+
+1. Install Node.js 20 or newer:
+   https://nodejs.org/
+
+2. Open Terminal.
+
+3. Type:
+   cd 
+
+4. Drag this unzipped Dig Duck folder into Terminal.
+
+5. Press Return.
+
+6. Run:
+   npm install
+   npm run fetch:wiki
+   npm run dev
+
+7. Open the local address Terminal prints.
+   It is usually:
+   http://127.0.0.1:5175/
+
+Keep Terminal open while using Dig Duck.
+Press Control-C in Terminal when you are done.
+
+Optional shortcut:
+
+You can try double-clicking "Run Dig Duck.command".
+If macOS blocks it, use the Terminal steps above.
