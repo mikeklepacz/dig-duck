@@ -12,11 +12,32 @@ Dig Duck is not packaged as a full Mac app yet, but the release zip includes a d
 2. Download `Dig-Duck-1.0.1.zip` from the [latest release](https://github.com/mikeklepacz/dig-duck/releases/tag/v1.0.1).
 3. Unzip it.
 4. Double-click `Run Dig Duck.command`.
-5. If macOS blocks the launcher, right-click `Run Dig Duck.command`, choose **Open**, then choose **Open** again.
 
 The launcher installs the needed packages the first time, downloads the wiki guide images, starts Dig Duck, and opens it in your browser.
 
 Leave the launcher Terminal window open while using Dig Duck. Press `Control-C` in that window when you are done.
+
+## If macOS Blocks the Launcher
+
+Because this is a free unsigned download, macOS may show:
+
+```text
+Apple could not verify "Run Dig Duck.command" is free of malware.
+```
+
+If that happens:
+
+1. Click **Done**.
+2. Open **Terminal**.
+3. Type this command, including the space at the end:
+
+```bash
+xattr -dr com.apple.quarantine 
+```
+
+4. Drag the unzipped `dig-duck` folder into Terminal.
+5. Press **Return**.
+6. Double-click `Run Dig Duck.command` again.
 
 ## Manual Run
 
