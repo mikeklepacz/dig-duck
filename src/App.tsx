@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   CheckCircle2,
   ChevronRight,
@@ -13,6 +13,7 @@ import {
   Shovel
 } from "lucide-react";
 import type { SaveDigsite, ScanResult, SlotSummary } from "./types";
+import { scanBrowserSaveFiles } from "./browser-scan";
 
 function formatDate(value: string | null) {
   if (!value) return "Not found";
@@ -205,8 +206,10 @@ function SlotDetail({ slot }: { slot: SlotSummary }) {
 export function App() {
   const [scan, setScan] = useState<ScanResult | null>(null);
   const [selectedSlot, setSelectedSlot] = useState("default");
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [serverAvailable, setServerAvailable] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   async function loadScan() {
     setLoading(true);
@@ -216,18 +219,42 @@ export function App() {
       if (!response.ok) throw new Error(`Scan failed (${response.status})`);
       const nextScan = (await response.json()) as ScanResult;
       setScan(nextScan);
+      setServerAvailable(true);
       if (!nextScan.slots.some((slot) => slot.id === selectedSlot)) {
         setSelectedSlot(nextScan.slots[0]?.id ?? "default");
       }
     } catch (nextError) {
-      setError(nextError instanceof Error ? nextError.message : "Scan failed");
+      setServerAvailable(false);
+      if (scan) {
+        setError(nextError instanceof Error ? nextError.message : "Scan failed");
+      }
     } finally {
       setLoading(false);
     }
   }
 
+  async function loadSelectedFiles(files: FileList | null) {
+    if (!files || files.length === 0) return;
+    setLoading(true);
+    setError(null);
+    try {
+      const nextScan = await scanBrowserSaveFiles(files);
+      setScan(nextScan);
+      if (!nextScan.slots.some((slot) => slot.id === selectedSlot)) {
+        setSelectedSlot(nextScan.slots[0]?.id ?? "default");
+      }
+    } catch (nextError) {
+      setError(nextError instanceof Error ? nextError.message : "Could not read that save folder");
+    } finally {
+      setLoading(false);
+      if (fileInputRef.current) fileInputRef.current.value = "";
+    }
+  }
+
   useEffect(() => {
-    void loadScan();
+    if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+      void loadScan();
+    }
   }, []);
 
   const selected = scan?.slots.find((slot) => slot.id === selectedSlot) ?? scan?.slots[0] ?? null;
@@ -245,9 +272,17 @@ export function App() {
           </div>
         </div>
 
-        <button className="primary-action" type="button" onClick={() => void loadScan()} disabled={loading}>
-          <RefreshCcw size={17} />
-          <span>{loading ? "Scanning" : "Rescan"}</span>
+        <input
+          ref={fileInputRef}
+          className="file-picker"
+          type="file"
+          multiple
+          {...{ webkitdirectory: "" }}
+          onChange={(event) => void loadSelectedFiles(event.currentTarget.files)}
+        />
+        <button className="primary-action" type="button" onClick={() => fileInputRef.current?.click()} disabled={loading}>
+          <FolderOpen size={17} />
+          <span>{loading ? "Scanning" : scan ? "Choose Different Folder" : "Choose Save Folder"}</span>
         </button>
       </header>
 
@@ -277,15 +312,26 @@ export function App() {
               <ChevronRight size={18} />
               <span>{formatDate(scan.scannedAt)}</span>
             </div>
+            {serverAvailable ? (
+              <button className="strip-button" type="button" onClick={() => void loadScan()} disabled={loading}>
+                <RefreshCcw size={16} />
+                <span>Rescan</span>
+              </button>
+            ) : null}
           </section>
 
           <SlotTabs slots={scan.slots} selected={selectedSlot} onSelect={setSelectedSlot} />
           {selected ? <SlotDetail slot={selected} /> : null}
         </>
       ) : (
-        <section className="loading-state">
-          <RefreshCcw size={28} />
-          <h2>Scanning saves</h2>
+        <section className="loading-state start-state">
+          <FolderOpen size={30} />
+          <h2>Choose your Sneaky Sasquatch save folder</h2>
+          <p>Select the folder that contains Save 1, Save 2, and Save 3. Dig Duck reads the files in your browser and does not upload them.</p>
+          <button className="primary-action" type="button" onClick={() => fileInputRef.current?.click()} disabled={loading}>
+            <FolderOpen size={17} />
+            <span>{loading ? "Scanning" : "Choose Save Folder"}</span>
+          </button>
         </section>
       )}
     </main>

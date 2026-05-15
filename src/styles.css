@@ -47,6 +47,10 @@ button:disabled {
   opacity: 0.68;
 }
 
+.file-picker {
+  display: none;
+}
+
 .app-shell {
   width: min(1180px, calc(100vw - 32px));
   margin: 0 auto;
@@ -129,8 +133,9 @@ button:disabled {
 }
 
 .source-strip {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 14px;
   padding: 14px 16px;
   border-radius: 8px;
@@ -149,6 +154,24 @@ button:disabled {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.source-strip div:first-child {
+  flex: 1 1 240px;
+}
+
+.strip-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 0 10px;
+  color: var(--accent);
+  background: #eef5ea;
+  border: 1px solid #d7e4d1;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 750;
 }
 
 .slot-tabs {
@@ -498,6 +521,17 @@ button:disabled {
   overflow-wrap: anywhere;
 }
 
+.start-state {
+  padding: 24px;
+}
+
+.start-state p {
+  max-width: 560px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
 .complete-state {
   color: var(--good);
   background: #f4faf2;
@@ -529,7 +563,6 @@ button:disabled {
     width: 100%;
   }
 
-  .source-strip,
   .summary-band,
   .slot-tabs,
   .location-row {

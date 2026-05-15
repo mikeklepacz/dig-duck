@@ -1,34 +1,17 @@
 Dig Duck 1.0.1
 
-Dig Duck is not a signed Mac app yet, so macOS may block the double-click launcher after download.
+How to run:
 
-The most reliable way to run it:
+1. Double-click "Open Dig Duck.html".
 
-1. Install Node.js 20 or newer:
-   https://nodejs.org/
+2. Click "Choose Save Folder".
 
-2. Open Terminal.
+3. Choose the Sneaky Sasquatch save folder.
 
-3. Type:
-   cd 
+Dig Duck runs in your browser.
+It reads the selected files on your Mac.
+It does not upload your saves.
 
-4. Drag this unzipped Dig Duck folder into Terminal.
+The save folder is usually here:
 
-5. Press Return.
-
-6. Run:
-   npm install
-   npm run fetch:wiki
-   npm run dev
-
-7. Open the local address Terminal prints.
-   It is usually:
-   http://127.0.0.1:5175/
-
-Keep Terminal open while using Dig Duck.
-Press Control-C in Terminal when you are done.
-
-Optional shortcut:
-
-You can try double-clicking "Run Dig Duck.command".
-If macOS blocks it, use the Terminal steps above.
+~/Library/Containers/com.rac7.SneakySasquatchMac/Data/Library/Application Support/com.rac7.SneakySasquatchMac

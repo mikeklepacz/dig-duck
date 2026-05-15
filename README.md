@@ -6,31 +6,19 @@ This is an unofficial community tool and is not affiliated with RAC7, Apple Arca
 
 ## Quick Start
 
-Dig Duck is not packaged as a signed Mac app yet. Because of that, macOS may block the double-click launcher after download.
+No Terminal or install is needed for the GitHub download.
 
-1. Install [Node.js 20 or newer](https://nodejs.org/).
-2. Download `Dig-Duck-1.0.1.zip` from the [latest release](https://github.com/mikeklepacz/dig-duck/releases/tag/v1.0.1).
-3. Unzip it.
-4. Open `START HERE.txt`.
-5. Follow the Terminal steps there.
+1. Download `Dig-Duck-1.0.1.zip` from the [latest release](https://github.com/mikeklepacz/dig-duck/releases/tag/v1.0.1).
+2. Unzip it.
+3. Double-click `Open Dig Duck.html`.
+4. Click **Choose Save Folder**.
+5. Choose the Sneaky Sasquatch save folder.
 
-The Terminal steps install the needed packages, download the wiki guide images, start Dig Duck, and show the local browser address.
-
-Leave Terminal open while using Dig Duck. Press `Control-C` in that window when you are done.
-
-## Optional Launcher
-
-The zip also includes `Run Dig Duck.command`, which tries to do the Terminal steps automatically.
-
-If macOS shows this message, use the manual Terminal steps instead:
-
-```text
-Apple could not verify "Run Dig Duck.command" is free of malware.
-```
+Dig Duck runs in your browser and reads the selected files on your Mac. It does not upload your saves.
 
 ## Manual Run
 
-If the launcher does not work, open **Terminal**, type `cd `, drag the unzipped `dig-duck` folder into Terminal, press **Return**, then run:
+Developers can run the source project locally:
 
 ```bash
 npm install
@@ -50,7 +38,7 @@ If port `5175` is already in use, Terminal will print a different local address.
 
 - macOS
 - Sneaky Sasquatch installed through Apple Arcade
-- Node.js 20 or newer
+- A browser that supports folder selection
 
 ## What It Does
 
