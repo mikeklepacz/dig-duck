@@ -15,6 +15,9 @@ import {
 import type { SaveDigsite, ScanResult, SlotSummary } from "./types";
 import { scanBrowserSaveFiles } from "./browser-scan";
 
+const defaultSaveFolderPath =
+  "~/Library/Containers/com.rac7.SneakySasquatchMac/Data/Library/Application Support/com.rac7.SneakySasquatchMac";
+
 function formatDate(value: string | null) {
   if (!value) return "Not found";
   return new Intl.DateTimeFormat(undefined, {
@@ -50,6 +53,21 @@ function Stat({ label, value, tone = "neutral" }: { label: string; value: string
       <span>{label}</span>
       <strong>{value}</strong>
     </div>
+  );
+}
+
+function SaveFolderHelp() {
+  return (
+    <section className="help-panel">
+      <h2>Choose the Sneaky Sasquatch save folder</h2>
+      <ol>
+        <li>Click <strong>Choose Save Folder</strong>.</li>
+        <li>Press <strong>Command-Shift-G</strong>.</li>
+        <li>Paste this path and press <strong>Return</strong>.</li>
+        <li>Click <strong>Open</strong>.</li>
+      </ol>
+      <code>{defaultSaveFolderPath}</code>
+    </section>
   );
 }
 
@@ -324,15 +342,18 @@ export function App() {
           {selected ? <SlotDetail slot={selected} /> : null}
         </>
       ) : (
-        <section className="loading-state start-state">
-          <FolderOpen size={30} />
-          <h2>Choose your Sneaky Sasquatch save folder</h2>
-          <p>Select the folder that contains Save 1, Save 2, and Save 3. Dig Duck reads the files in your browser and does not upload them.</p>
-          <button className="primary-action" type="button" onClick={() => fileInputRef.current?.click()} disabled={loading}>
-            <FolderOpen size={17} />
-            <span>{loading ? "Scanning" : "Choose Save Folder"}</span>
-          </button>
-        </section>
+        <>
+          <SaveFolderHelp />
+          <section className="loading-state start-state">
+            <FolderOpen size={30} />
+            <h2>Dig Duck reads your saves locally</h2>
+            <p>The browser will ask you to choose the save folder. Your save files stay on your Mac and are not uploaded.</p>
+            <button className="primary-action" type="button" onClick={() => fileInputRef.current?.click()} disabled={loading}>
+              <FolderOpen size={17} />
+              <span>{loading ? "Scanning" : "Choose Save Folder"}</span>
+            </button>
+          </section>
+        </>
       )}
     </main>
   );

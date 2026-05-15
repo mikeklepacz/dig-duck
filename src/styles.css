@@ -126,10 +126,40 @@ button:disabled {
 .locations,
 .empty-state,
 .loading-state,
+.help-panel,
 .error-band {
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
+}
+
+.help-panel {
+  margin-bottom: 16px;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.help-panel h2 {
+  margin: 0 0 12px;
+  font-size: 1.08rem;
+}
+
+.help-panel ol {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 14px 20px;
+  padding: 0;
+  color: #3d473f;
+}
+
+.help-panel code {
+  display: block;
+  padding: 12px;
+  color: #1f3329;
+  background: #edf4e9;
+  border: 1px solid #d6e5cf;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
 }
 
 .source-strip {

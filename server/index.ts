@@ -82,6 +82,8 @@ type SlotFiles = {
 
 const app = express();
 const port = Number(process.env.PORT ?? process.env.API_PORT ?? 4174);
+const appRoot = process.env.DIG_DUCK_APP_ROOT ?? process.cwd();
+const distRoot = path.join(appRoot, "dist");
 const saveRoot =
   process.env.SASQUATCH_SAVE_DIR ??
   path.join(
@@ -114,15 +116,15 @@ async function readJson<T>(filePath: string): Promise<T | null> {
 }
 
 async function getCatalog() {
-  const filePath = path.resolve(process.cwd(), "src/data/digsite-catalog.json");
+  const filePath = path.resolve(appRoot, "src/data/digsite-catalog.json");
   const entries = (await readJson<CatalogEntry[]>(filePath)) ?? [];
   return new Map(entries.map((entry) => [catalogKey(entry.mapHash, entry.digsiteId), entry]));
 }
 
 async function getWikiGuide() {
   const [spots, mappings] = await Promise.all([
-    readJson<WikiSpot[]>(path.resolve(process.cwd(), "src/data/wiki-dig-spots.json")),
-    readJson<WikiMapping[]>(path.resolve(process.cwd(), "src/data/wiki-mapping.json"))
+    readJson<WikiSpot[]>(path.resolve(appRoot, "src/data/wiki-dig-spots.json")),
+    readJson<WikiMapping[]>(path.resolve(appRoot, "src/data/wiki-mapping.json"))
   ]);
   const spotByNumber = new Map((spots ?? []).map((spot) => [spot.number, spot]));
   const mappingBySaveId = new Map(
@@ -424,6 +426,13 @@ app.get("/api/scan", async (_request, response) => {
     });
   }
 });
+
+if (existsSync(distRoot)) {
+  app.use(express.static(distRoot));
+  app.get(/.*/, (_request, response) => {
+    response.sendFile(path.join(distRoot, "index.html"));
+  });
+}
 
 app.listen(port, "127.0.0.1", () => {
   console.log(`Dig Duck API listening on http://127.0.0.1:${port}`);

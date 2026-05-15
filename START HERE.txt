@@ -1,17 +1,12 @@
-Dig Duck 1.0.1
+Dig Duck 1.0.2
 
 How to run:
 
-1. Double-click "Open Dig Duck.html".
+1. Right-click "Dig Duck.app".
 
-2. Click "Choose Save Folder".
+2. Choose Open.
 
-3. Choose the Sneaky Sasquatch save folder.
+3. Choose Open again if macOS asks.
 
-Dig Duck runs in your browser.
-It reads the selected files on your Mac.
-It does not upload your saves.
-
-The save folder is usually here:
-
-~/Library/Containers/com.rac7.SneakySasquatchMac/Data/Library/Application Support/com.rac7.SneakySasquatchMac
+Dig Duck opens in your browser and reads the normal Sneaky Sasquatch save folder automatically.
+It does not edit your saves.
