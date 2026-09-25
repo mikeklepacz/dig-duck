@@ -11,3 +11,7 @@ public/wiki-images/
 
 *.log
 pemberton-check.png
+macos/Generated/
+macos/build/
+*.xcuserstate
+xcuserdata/

@@ -1,7 +1,7 @@
 {
   "name": "dig-duck",
   "private": true,
-  "version": "1.0.2",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "concurrently -k \"npm:dev:api\" \"npm:dev:web\"",
@@ -10,7 +10,10 @@
     "build": "tsc -b && vite build",
     "fetch:wiki": "tsx scripts/fetch-wiki-dig-spots.ts",
     "typecheck": "tsc --noEmit && tsc -p tsconfig.server.json --noEmit",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "mac:prepare": "npm run typecheck && vite build --config vite.native.config.ts",
+    "mac:build": "bash scripts/build-native-app.sh",
+    "test:native": "bash scripts/test-native.sh"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.2",

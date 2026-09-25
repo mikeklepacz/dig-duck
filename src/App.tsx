@@ -14,6 +14,8 @@ import {
 } from "lucide-react";
 import type { SaveDigsite, ScanResult, SlotSummary } from "./types";
 import { scanBrowserSaveFiles } from "./browser-scan";
+import { copyText, forgetNativeFolder, isNativeApp, scanNativeSaves } from "./native";
+import { scanExampleSaves } from "./demo";
 
 const defaultSaveFolderPath =
   "~/Library/Containers/com.rac7.SneakySasquatchMac/Data/Library/Application Support/com.rac7.SneakySasquatchMac";
@@ -44,7 +46,7 @@ function copyLocation(site: SaveDigsite) {
     `Position: ${formatPosition(site)}`,
     site.wiki ? `Description: ${site.wiki.description}` : undefined
   ].filter(Boolean);
-  void navigator.clipboard?.writeText(lines.join("\n"));
+  return copyText(lines.join("\n"));
 }
 
 function Stat({ label, value, tone = "neutral" }: { label: string; value: string | number; tone?: "neutral" | "good" | "warn" }) {
@@ -56,15 +58,15 @@ function Stat({ label, value, tone = "neutral" }: { label: string; value: string
   );
 }
 
-function SaveFolderHelp() {
+function SaveFolderHelp({ native = false }: { native?: boolean }) {
   return (
     <section className="help-panel">
       <h2>Choose the Sneaky Sasquatch save folder</h2>
       <ol>
-        <li>Click <strong>Choose Save Folder</strong>.</li>
+        <li>Click <strong>{native ? "Open My Saves" : "Choose Save Folder"}</strong>.</li>
         <li>Press <strong>Command-Shift-G</strong>.</li>
         <li>Paste this path and press <strong>Return</strong>.</li>
-        <li>Click <strong>Open</strong>.</li>
+        <li>Click <strong>{native ? "Allow Access" : "Open"}</strong>.</li>
       </ol>
       <code>{defaultSaveFolderPath}</code>
     </section>
@@ -81,16 +83,17 @@ function SlotTabs({
   onSelect: (slot: string) => void;
 }) {
   return (
-    <div className="slot-tabs" role="tablist" aria-label="Save slots">
+    <div className="slot-tabs" role="group" aria-label="Save slots">
       {slots.map((slot) => (
         <button
           key={slot.id}
           className={slot.id === selected ? "slot-tab selected" : "slot-tab"}
+          aria-pressed={slot.id === selected}
           onClick={() => onSelect(slot.id)}
           type="button"
         >
           <span>{slot.label}</span>
-          <strong>{slot.missingDigsites}</strong>
+          <strong>{slot.exists ? slot.missingDigsites : "—"}</strong>
         </button>
       ))}
     </div>
@@ -98,6 +101,7 @@ function SlotTabs({
 }
 
 function LocationRow({ site }: { site: SaveDigsite }) {
+  const [copyStatus, setCopyStatus] = useState("Copy location");
   const status =
     site.confidence === "unknown"
       ? "Needs catalog entry"
@@ -126,7 +130,7 @@ function LocationRow({ site }: { site: SaveDigsite }) {
           {!hasExactWiki ? <span className="candidate-label">Possible guide match</span> : null}
           {wikiSpots.map((spot) => (
             <div className="wiki-match" key={spot.number}>
-              <img src={spot.image.localPath} alt={spot.title} loading="lazy" />
+              <img src={spot.image.localPath.replace(/^\//, "./")} alt={spot.title} loading="lazy" />
               <div>
                 <h4>{spot.title}</h4>
                 <p>{spot.description}</p>
@@ -147,7 +151,7 @@ function LocationRow({ site }: { site: SaveDigsite }) {
         <span>{site.wiki ? "Wiki matched" : site.wikiCandidates.length > 0 ? "Guide suggested" : status}</span>
       </div>
 
-      <button className="icon-button" type="button" onClick={() => copyLocation(site)} aria-label="Copy location">
+      <button className="icon-button" type="button" onClick={() => void copyLocation(site).then(() => setCopyStatus("Copied")).catch(() => setCopyStatus("Copy failed; try again"))} aria-label={copyStatus} title={copyStatus}>
         <Copy size={17} />
       </button>
     </article>
@@ -213,7 +217,7 @@ function SlotDetail({ slot }: { slot: SlotSummary }) {
         ) : (
           <div className="complete-state">
             <CheckCircle2 size={28} />
-            <h3>No missing digsites</h3>
+            <h3>{query ? "No locations match your search" : showAll ? "No digsites found" : "No missing digsites"}</h3>
           </div>
         )}
       </section>
@@ -227,7 +231,58 @@ export function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [serverAvailable, setServerAvailable] = useState(false);
+  const [example, setExample] = useState(false);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
+  const native = isNativeApp();
+
+  async function loadNative(action: "choose" | "restore" | "rescan") {
+    setLoading(true);
+    setError(null);
+    try {
+      const result = await scanNativeSaves(action);
+      if (result) {
+        setExample(false);
+        setScan(result.scan);
+        setSelectedSlot((current) => result.scan.slots.find((slot) => slot.id === current && slot.exists)?.id
+          ?? result.scan.slots.find((slot) => slot.exists)?.id ?? "default");
+        setError(result.warning ?? null);
+      }
+    } catch (nextError) {
+      setError(nextError instanceof Error ? nextError.message : String(nextError));
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function chooseFolder() {
+    if (native) void loadNative("choose");
+    else fileInputRef.current?.click();
+  }
+
+  async function forgetFolder() {
+    try {
+      await forgetNativeFolder();
+      setScan(null);
+      setExample(false);
+      setError(null);
+    } catch {
+      setError("Could not forget this folder. Please try again.");
+    }
+  }
+
+  async function showExample() {
+    setLoading(true);
+    setError(null);
+    try {
+      setScan(await scanExampleSaves());
+      setSelectedSlot("default");
+      setExample(true);
+    } catch {
+      setError("Could not open the example. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  }
 
   async function loadScan() {
     setLoading(true);
@@ -236,6 +291,7 @@ export function App() {
       const response = await fetch("/api/scan");
       if (!response.ok) throw new Error(`Scan failed (${response.status})`);
       const nextScan = (await response.json()) as ScanResult;
+      setExample(false);
       setScan(nextScan);
       setServerAvailable(true);
       if (!nextScan.slots.some((slot) => slot.id === selectedSlot)) {
@@ -257,6 +313,8 @@ export function App() {
     setError(null);
     try {
       const nextScan = await scanBrowserSaveFiles(files);
+      if (!nextScan.slots.some((slot) => slot.exists)) throw new Error("No digsite saves found. Choose the folder containing default, default2, or default3.");
+      setExample(false);
       setScan(nextScan);
       if (!nextScan.slots.some((slot) => slot.id === selectedSlot)) {
         setSelectedSlot(nextScan.slots[0]?.id ?? "default");
@@ -270,7 +328,9 @@ export function App() {
   }
 
   useEffect(() => {
-    if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+    if (native) {
+      void loadNative("restore");
+    } else if (window.location.protocol === "http:" || window.location.protocol === "https:") {
       void loadScan();
     }
   }, []);
@@ -298,14 +358,14 @@ export function App() {
           {...{ webkitdirectory: "" }}
           onChange={(event) => void loadSelectedFiles(event.currentTarget.files)}
         />
-        <button className="primary-action" type="button" onClick={() => fileInputRef.current?.click()} disabled={loading}>
+        <button className="primary-action" type="button" onClick={chooseFolder} disabled={loading}>
           <FolderOpen size={17} />
-          <span>{loading ? "Scanning" : scan ? "Choose Different Folder" : "Choose Save Folder"}</span>
+          <span>{loading ? "Scanning" : native ? "Open My Saves" : scan ? "Choose Different Folder" : "Choose Save Folder"}</span>
         </button>
       </header>
 
       {error ? (
-        <section className="error-band">
+        <section className="error-band" role="alert">
           <CircleAlert size={20} />
           <span>{error}</span>
         </section>
@@ -313,6 +373,7 @@ export function App() {
 
       {scan ? (
         <>
+          {example ? <section className="help-panel" role="status"><strong>Example saves</strong><p>These are fictional results to show how Dig Duck works. Open your saves to see your own missing spots.</p></section> : null}
           <section className="source-strip">
             <div>
               <FolderOpen size={18} />
@@ -330,12 +391,13 @@ export function App() {
               <ChevronRight size={18} />
               <span>{formatDate(scan.scannedAt)}</span>
             </div>
-            {serverAvailable ? (
-              <button className="strip-button" type="button" onClick={() => void loadScan()} disabled={loading}>
+            {!example && (serverAvailable || native) ? (
+              <button className="strip-button" type="button" onClick={() => native ? void loadNative("rescan") : void loadScan()} disabled={loading}>
                 <RefreshCcw size={16} />
                 <span>Rescan</span>
               </button>
             ) : null}
+            {native && !example ? <button className="strip-button" type="button" onClick={() => void forgetFolder()} disabled={loading}>Forget Folder</button> : null}
           </section>
 
           <SlotTabs slots={scan.slots} selected={selectedSlot} onSelect={setSelectedSlot} />
@@ -343,18 +405,35 @@ export function App() {
         </>
       ) : (
         <>
-          <SaveFolderHelp />
+          {!native ? <SaveFolderHelp /> : null}
           <section className="loading-state start-state">
             <FolderOpen size={30} />
-            <h2>Dig Duck reads your saves locally</h2>
-            <p>The browser will ask you to choose the save folder. Your save files stay on your Mac and are not uploaded.</p>
-            <button className="primary-action" type="button" onClick={() => fileInputRef.current?.click()} disabled={loading}>
+            <h2>{loading ? "Reading your saves…" : "Find those last missing dig spots"}</h2>
+            <p>{native
+              ? "Play Sneaky Sasquatch on this Mac, then quit the game. Click Open My Saves. We’ll open the standard save location in a macOS permission window—click Allow Access to read your progress. We’ll remember access for next time."
+              : "Choose your Sneaky Sasquatch save folder to get started."}</p>
+            <p>Your saves stay on your Mac. Dig Duck never changes or uploads them.</p>
+            <button className="primary-action" type="button" onClick={chooseFolder} disabled={loading}>
               <FolderOpen size={17} />
-              <span>{loading ? "Scanning" : "Choose Save Folder"}</span>
+              <span>{loading ? "Scanning" : native ? "Open My Saves" : "Choose Save Folder"}</span>
             </button>
+            <button className="strip-button" type="button" onClick={() => void showExample()} disabled={loading}>Preview with example saves</button>
           </section>
+          {native ? <details className="help-panel"><summary>No saves showing up?</summary>
+            <p>Dig Duck needs saves from the Mac version of Sneaky Sasquatch. If you play on iPhone or iPad, open the Mac game with the same Apple Account and let your save sync first.</p>
+            <p>If macOS opens a different location, the save folder may not exist yet. Open the Mac game and load your save first, then try Open My Saves again. For a backup in another location, you can navigate there in the permission window.</p>
+            <SaveFolderHelp native />
+          </details> : null}
         </>
       )}
+      <footer className="app-footer">
+        <p>Unofficial community tool. Not affiliated with RAC7 or Apple. Suggested guide matches may need confirmation.</p>
+        <a href="https://github.com/mikeklepacz/dig-duck/issues" target="_blank" rel="noreferrer">Help & feedback</a>
+        <details><summary>Privacy & credits</summary>
+          <p>Dig Duck reads only the save folder you select. No accounts, analytics, advertising, or save uploads. Forget Folder removes the saved permission bookmark. Opening a guide or support link takes you to an external website with its own privacy policy.</p>
+          <p>Guide descriptions and images originate from the <a href="https://sneaky-sasquatch.fandom.com/wiki/Dig_Spot" target="_blank" rel="noreferrer">Sneaky Sasquatch Wiki</a>. Game content belongs to its respective owners.</p>
+        </details>
+      </footer>
     </main>
   );
 }

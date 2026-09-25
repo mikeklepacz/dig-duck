@@ -1,12 +1,11 @@
-Dig Duck 1.0.2
+Dig Duck 1.1.0 — local preview
 
-How to run:
+Open Dig Duck.app.
+Choose Save Folder, then allow read access to your Sneaky Sasquatch saves.
+You can also choose Preview with example saves without selecting any files.
 
-1. Right-click "Dig Duck.app".
+No Terminal, Homebrew, Node installation, or browser server is needed.
+Your saves remain on your Mac and are never changed by Dig Duck.
 
-2. Choose Open.
-
-3. Choose Open again if macOS asks.
-
-Dig Duck opens in your browser and reads the normal Sneaky Sasquatch save folder automatically.
-It does not edit your saves.
+This locally signed preview is not an App Store release. The App Store build
+still needs distribution signing, validation, submission, and Apple approval.

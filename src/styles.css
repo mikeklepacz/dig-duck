@@ -624,3 +624,10 @@ button:disabled {
     width: 100%;
   }
 }
+
+.app-footer { margin-top: 28px; color: var(--muted); font-size: .85rem; line-height: 1.5; }
+.app-footer a { color: var(--accent); }
+.app-footer details { margin-top: 12px; }
+.help-panel { margin-top: 16px; }
+summary { cursor: pointer; font-weight: 650; }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent-2); outline-offset: 3px; }

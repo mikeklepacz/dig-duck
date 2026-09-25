@@ -4,14 +4,13 @@ Dig Duck is a read-only Mac helper for Sneaky Sasquatch. It scans your local App
 
 This is an unofficial community tool and is not affiliated with RAC7, Apple Arcade, Fandom, or the Sneaky Sasquatch Wiki.
 
-## Quick Start For Players
+## Mac App Store version — in preparation
 
-1. Download `Dig-Duck-1.0.2-mac.zip` from the [latest release](https://github.com/mikeklepacz/dig-duck/releases).
-2. Unzip it.
-3. Right-click `Dig Duck.app` and choose **Open**.
-4. Choose **Open** again if macOS asks.
+Version 1.1.0 now runs in its own sandboxed Mac window. Players choose their save folder once, then reopen or rescan without Terminal, Homebrew, Node, or a local browser server. A clearly labelled example preview is included.
 
-Dig Duck opens in your browser and automatically reads the normal Sneaky Sasquatch save location on your Mac. It does not edit your saves.
+The native app is implemented locally; it has **not** been submitted to or approved by the Mac App Store. The existing public 1.0.2 download still uses the older browser launcher.
+
+For native builds and App Store submission, see [macos/README.md](macos/README.md). Prepared listing and privacy copy are in [docs/app-store](docs/app-store).
 
 ## Manual Run
 
@@ -54,7 +53,7 @@ The app expects Sneaky Sasquatch saves in the normal Apple Arcade container:
 
 ## Latest Update
 
-Version `1.0.2` adds a downloadable Mac app bundle that auto-detects the normal Sneaky Sasquatch save folder.
+Version `1.1.0` replaces the browser launcher in the source project with a native Mac window, read-only folder permission, remembered access, rescan, and recovery messages. App Store publication is pending.
 
 ## Wiki Guide Data
 
