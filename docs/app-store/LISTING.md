@@ -56,7 +56,7 @@ For a real scan, install and play the Mac version of Sneaky Sasquatch, quit it, 
 
 The bundled interface runs in WKWebView. The network-client entitlement is required by WebKit for loading local resources. The app has no listening server, and the bundled page’s content-security policy blocks network requests. Guide/support links open in the system browser only after the user clicks them.
 
-## Remaining submission work
+## Submission status
 
 September 26 local correction: build 4 fixes a false missing dig spot when the game's completion counter reports all 116 but only 115 individual location records are stored. The UI preserves that distinction instead of inventing a missing location. A partial save whose counter merely matches its observed records is no longer used as a completed-game baseline. Slots without downloaded local records now explain how to load them in the Mac game and rescan. Five TypeScript regression/bridge tests, the native reader checks, typechecking, and the universal local app build passed. The native build was opened and verified against the user's real Save 1: 116/116, zero missing, day 916. Only the default slot existed locally at that check; slots 2 and 3 remain unverified until downloaded. Build 4 must replace build 3 in the submission; see the upload status below.
 
@@ -72,3 +72,11 @@ Follow-up verification: all three local save folders subsequently became availab
 - Real game-container access and automatic picker navigation were verified after the user reinstalled the game. The remembered bookmark restored access in local build 4. Minimum supported OS and Intel runtime have not been runtime-tested.
 
 Apple review and approval are external steps; preparation or upload alone is not publication.
+
+## Submitted September 26, 2026
+
+Version 1.1.0 (build 4) was attached and its encryption questionnaire completed. The actual native app capture with explicitly labelled example saves was resized proportionally and padded to 2880 x 1800 for the listing; App Store Connect accepted it. Reviewer contact information was saved. Validation passed, and Submit for Review succeeded at 12:38 Europe/Warsaw. Apple displayed “1 Item Submitted” and “Waiting for Review.”
+
+Submission: https://appstoreconnect.apple.com/apps/6816131193/distribution/reviewsubmissions/details/41dc6815-dc80-4462-9dbb-299bf90fdb7a
+
+This supersedes the pending-submission statements in the chronological notes above. Automatic release after approval is selected. The app is submitted, not yet approved or publicly released.
