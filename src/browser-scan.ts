@@ -244,7 +244,7 @@ export async function scanBrowserSaveFiles(files: FileList | File[]): Promise<Sc
     const digsites = slotDigsites.get(slotId) ?? new Map();
     const achievementCount = slotFiles.get(slotId)?.achievements?.["13"];
     const dugCount = [...digsites.values()].filter((site) => site.dug).length;
-    return typeof achievementCount === "number" && achievementCount > 0 && achievementCount === dugCount;
+    return typeof achievementCount === "number" && achievementCount === wikiSpots.length && achievementCount === dugCount;
   });
   const observedKeys = new Set([...slotDigsites.values()].flatMap((digsites) => [...digsites.keys()]));
   const baselineKeys = completedSlot
@@ -260,23 +260,45 @@ export async function scanBrowserSaveFiles(files: FileList | File[]): Promise<Sc
     wikiMappings: wikiMappings.length,
     scannedAt: new Date().toISOString(),
     slots: slotIds.map((slotId) => {
-      const all = baselineKeys
+      const observed = slotDigsites.get(slotId)!;
+      const slotInfo = slotFiles.get(slotId)!;
+      const achievementCount = slotInfo.achievements?.["13"];
+      // Missing map records are not evidence of an undug spot when the game's
+      // own counter confirms completion. Keep the available records honest:
+      // do not invent a location or mark an absent record as observed/dug.
+      const gameComplete = achievementCount === wikiSpots.length && observed.size > 0
+        && [...observed.values()].every((site) => site.dug);
+      const keys = gameComplete ? [...observed.keys()] : baselineKeys;
+      const all = keys
         .map((key) => buildSite(key, slotDigsites.get(slotId)?.get(key), catalog, mappingBySaveId, spotByNumber))
         .sort((a, b) => {
           const scene = (a.sceneName ?? a.mapHash).localeCompare(b.sceneName ?? b.mapHash);
           return scene || a.digsiteId.localeCompare(b.digsiteId);
         });
       const missing = all.filter((site) => !site.dug);
-      const slotInfo = slotFiles.get(slotId)!;
+      const useGameCounter = typeof achievementCount === "number" && Number.isInteger(achievementCount)
+        && achievementCount >= 0 && achievementCount <= wikiSpots.length
+        && (achievementCount < wikiSpots.length || gameComplete);
+      const total = useGameCounter ? wikiSpots.length : all.length;
+      const dug = useGameCounter ? achievementCount : all.filter((site) => site.dug).length;
+      const remaining = useGameCounter ? total - dug : missing.length;
       return {
         id: slotId,
         label: slotLabels[slotId] ?? slotId,
         path: slotId,
         exists: (slotDigsites.get(slotId)?.size ?? 0) > 0,
-        totalDigsites: all.length,
-        dugDigsites: all.filter((site) => site.dug).length,
-        missingDigsites: missing.length,
+        totalDigsites: total,
+        dugDigsites: dug,
+        missingDigsites: remaining,
+        locationCandidates: !useGameCounter || missing.length !== remaining,
         achievementDigCount: typeof slotInfo.achievements?.["13"] === "number" ? slotInfo.achievements["13"] : null,
+        progressNote: gameComplete && all.length !== wikiSpots.length
+          ? `Your game's achievement counter confirms all ${wikiSpots.length} dig spots are complete. ${all.length} individual location records are available in these local saves.`
+          : useGameCounter && (missing.length !== remaining || all.length !== total)
+            ? `The game records ${dug} completed dig spots. The bundled guide covers ${total}. Local map records and the guide do not fully agree, so the ${missing.length} locations below are candidates, not a confirmed list of the ${remaining} remaining spots.`
+            : !useGameCounter
+              ? "The game's completion counter is unavailable or conflicts with these map records. These totals are estimates from local records and the bundled catalog; listed locations need confirmation."
+              : undefined,
         lastModified: null,
         currentMap: typeof slotInfo.sasquatch?.current_map === "string" ? slotInfo.sasquatch.current_map : null,
         day: typeof slotInfo.sasquatch?.day === "number" ? slotInfo.sasquatch.day : null,

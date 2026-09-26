@@ -177,8 +177,9 @@ function SlotDetail({ slot }: { slot: SlotSummary }) {
     return (
       <section className="empty-state">
         <CircleAlert size={24} />
-        <h2>{slot.label} was not found</h2>
-        <p>{slot.path}</p>
+        <h2>{slot.label} is not available locally</h2>
+        <p>If this save appears in Sneaky Sasquatch, open that slot in the Mac game and let it finish loading. Then quit the game and click Rescan here.</p>
+        <p>Dig Duck reads downloaded save files; a slot shown on the game's selection screen may not have downloaded yet.</p>
       </section>
     );
   }
@@ -192,6 +193,7 @@ function SlotDetail({ slot }: { slot: SlotSummary }) {
         <Stat label="Game Day" value={slot.day ?? "Unknown"} />
       </section>
 
+      {slot.progressNote ? <p className="help-panel">{slot.progressNote}</p> : null}
       <section className="toolbar" aria-label="Location filters">
         <label className="search-box">
           <Search size={17} />
@@ -209,7 +211,7 @@ function SlotDetail({ slot }: { slot: SlotSummary }) {
 
       <section className="locations" aria-label="Dig locations">
         <div className="section-title">
-          <h2>{showAll ? "All Digsites" : "Missing Digsites"}</h2>
+          <h2>{showAll ? "All Digsites" : slot.locationCandidates ? "Possible Missing Locations" : "Missing Digsites"}</h2>
           <span>{visibleSites.length} shown</span>
         </div>
         {visibleSites.length > 0 ? (

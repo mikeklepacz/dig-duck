@@ -52,6 +52,8 @@ export type SlotSummary = {
   dugDigsites: number;
   missingDigsites: number;
   achievementDigCount: number | null;
+  progressNote?: string;
+  locationCandidates?: boolean;
   lastModified: string | null;
   currentMap: string | null;
   day: number | null;

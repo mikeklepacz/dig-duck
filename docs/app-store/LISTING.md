@@ -3,11 +3,11 @@
 App Store Connect draft created and verified on September 25, 2026:
 https://appstoreconnect.apple.com/apps/6816131193/distribution/macos/version/inflight
 
-Apple ID: `6816131193`. Version 1.1.0 is **Prepare for Submission**. Description, keywords, support URL, copyright, no-sign-in requirement, and review notes were saved and read back. Build 3 was archived, exported with App Store signing, and uploaded successfully on September 25, 2026. Apple reported that the uploaded package was processing. It is not yet attached to the version, and nothing has been submitted for review.
+Apple ID: `6816131193`. Version 1.1.0 is **Prepare for Submission**. Description, keywords, support URL, copyright, no-sign-in requirement, and review notes were saved and read back. Build 3 was archived, exported with App Store signing, and uploaded successfully on September 25, 2026. Apple finished processing it; build 1.1.0 (3) and the reviewer contact details supplied by the user are now saved to the version. The encryption questionnaire was saved with “None of the algorithms mentioned above,” and the missing-compliance warning cleared. Saved review notes match the “Open My Saves” and “Allow Access” interface. Nothing has been submitted for review.
 
 Free pricing was confirmed, saved, and verified after reopening Pricing and Availability on September 25, 2026. Availability was saved for all 175 countries or regions; the returned country list shows “Available on App Release.” No in-app purchases are configured.
 
-The subtitle and Utilities category were saved (App Store Connect showed “Saved”). The published privacy URL was saved and read back. The “Data Not Collected” questionnaire answer was saved as a draft. Publishing that answer presents an explicit agreement about accuracy, legal compliance, and future updates, so the final Publish action remains pending user confirmation.
+The subtitle and Utilities category were saved (App Store Connect showed “Saved”). The published privacy URL was saved and read back. The user published “Data Not Collected”; App Store Connect confirmed publication by Michael Klepacz.
 
 ## App information
 
@@ -58,13 +58,17 @@ The bundled interface runs in WKWebView. The network-client entitlement is requi
 
 ## Remaining submission work
 
+September 26 local correction: build 4 fixes a false missing dig spot when the game's completion counter reports all 116 but only 115 individual location records are stored. The UI preserves that distinction instead of inventing a missing location. A partial save whose counter merely matches its observed records is no longer used as a completed-game baseline. Slots without downloaded local records now explain how to load them in the Mac game and rescan. Five TypeScript regression/bridge tests, the native reader checks, typechecking, and the universal local app build passed. The native build was opened and verified against the user's real Save 1: 116/116, zero missing, day 916. Only the default slot existed locally at that check; slots 2 and 3 remain unverified until downloaded. Build 4 still needs App Store upload and attachment; build 3 must be replaced before submission.
+
+Follow-up verification: all three local save folders subsequently became available. The revised parser reports Save 1 as 116/116 (day 916), Save 2 using its game counter of 60 completed (day 221), and Save 3 as available (day 139) with no dig-achievement counter in its file. Partial-save summaries use a valid game counter when available and distinguish candidate location lists when map/catalog counts disagree. Without a usable counter, totals are explicitly labelled estimates. Six TypeScript tests plus the native reader tests pass. Build 4 archive/upload is being prepared with these additional changes; no review submission has occurred.
+
 - Xcode setup and account sign-in are complete. The real Xcode archive succeeded.
 - Automatic App Store signing/provisioning and export succeeded after the user signed into Xcode.
-- Upload completed through Xcode (`release/upload.log` records “Upload succeeded”). Wait for App Store Connect processing and attach build 3 before review.
-- The privacy URL is saved in App Store Connect. Obtain confirmation for the final privacy-publication agreement; verify the support page before final submission.
+- Upload completed through Xcode (`release/upload.log` records “Upload succeeded”). Processing completed and the encryption questionnaire is complete. Build 3 and reviewer contacts are saved. Apple submission validation reports three remaining requirements: at least one screenshot, Content Rights Information, and published App Privacy answers.
+- The privacy URL and published “Data Not Collected” answer are saved in App Store Connect.
 - Capture final Mac App Store screenshots at an accepted size from the final build; keep example data labelled.
-- Confirm rights for the existing wiki text and game screenshots. Wiki community licensing does not by itself establish rights to every game image. Do not make an affirmative content-rights declaration without evidence.
-- Age-rating questionnaire is saved; App Store Connect reports global 4+ with regional exceptions. Privacy draft is saved but final declaration awaits confirmation. Review contact details are requested from the user. Existing account state identifies the developer as a trader; this was not changed.
-- Test access to actual game-container saves and the initial suggested folder on a Mac with the game installed. This machine had no saves at that location during preparation. Test the supported minimum OS and Intel runtime before claiming those were runtime-tested.
+- The user instructed us to retain the wiki/game images and proceed for Apple review. Apple requires the declaration “Yes, it contains, shows, or accesses third-party content, and I have the necessary rights.” The user explicitly authorized this declaration after being shown its wording. It was selected and saved; App Store Connect displayed “Saved” and “Yes, this app has the necessary rights to its third-party content.” This records the user declaration, not independent verification of licenses.
+- Age-rating questionnaire is saved; App Store Connect reports global 4+ with regional exceptions. Privacy answers are published. Review contact details supplied by the user are saved. Existing account state identifies the developer as a trader; this was not changed.
+- Real game-container access and automatic picker navigation were verified after the user reinstalled the game. The remembered bookmark restored access in local build 4. Minimum supported OS and Intel runtime have not been runtime-tested.
 
 Apple review and approval are external steps; preparation or upload alone is not publication.
